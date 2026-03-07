@@ -1,0 +1,62 @@
+/*============================================
+  CLASSIC LAYOUT
+  - Traditional 3-column layout with navbar, sidebar(s), and main content
+  - Follows the Laws of Sparse
+  ============================================*/
+
+/*============================================
+  NAVBAR: A component that always spans the top of the page
+  - Use for website title, nav links, searchbar, notifications, etc.
+  ============================================*/
+.navbar {
+  padding: var(--medium) var(--large);
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-title {
+  font-weight: var(--weight-bold);
+  font-size: var(--xlarge);
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+/*============================================
+  SIDEBAR: A component that spans the side of the page
+  - Use for navigation links, user profile, filters, etc.
+  ============================================*/
+.sidebar {
+  max-width: var(--percent-25);
+}
+
+/*============================================
+  PAGE: A component that represents the main content area
+  - Articles, main writing area, feed, pictures, etc.
+  ============================================*/
+.page {
+  flex: 1;
+  padding: var(--large);
+}
+.page-title {
+  font-size: var(--large);
+  font-weight: var(--weight-bold);
+  margin-bottom: var(--small);
+}
+.page-meta {
+  color: var(--color-gray);
+  font-size: var(--medium);
+  margin-bottom: var(--large);
+}
+.page-text p {
+  margin-bottom: var(--medium);
+  line-height: var(--line-height-loose);
+}
+
+/*============================================
+  MARKDOWN EDITOR STYLES
+  - TipTap/ProseMirror-specific styling
+  ============================================*/
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: var(--color-placeholder);
+  pointer-events: none;
+  content: attr(data-placeholder);
+}
