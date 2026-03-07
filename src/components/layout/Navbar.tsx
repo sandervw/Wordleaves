@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import SVG from "./SVG";
+import SVG from "../parts/SVG";
 
 interface NavbarProps {
   onBack?: () => void;
@@ -22,13 +22,11 @@ const Navbar = ({ onBack }: NavbarProps) => {
 
   return (
     <nav className="navbar container">
-      {onBack && <SVG name="return" props={{ onClick: onBack }} />}
-      <div className="navbar-title">Sparse</div>
-      <input type="text" className="input font-large" placeholder="Search..." />
       <div className="display-flex gap-medium">
-        <button className="btn">Login</button>
-        <button className="btn">Sign Up</button>
-        <button className="btn-danger">Delete Account</button>
+        {onBack && <SVG name="return" props={{ onClick: onBack }} />}
+      </div>
+      <div className="navbar-title">Wordleaves</div>
+      <div className="display-flex gap-medium">
         <SVG
           name={theme === "dark" ? "sun" : "moon"}
           className="flex-child-center"

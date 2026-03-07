@@ -1,24 +1,24 @@
 import { useState } from "react";
 import "./sparse.css";
 import "./classic.css";
-import Navbar from "./Navbar";
-import Homepage from "./Homepage";
-import ModalsTestPage from "./ModalsTestPage";
-import ExpandablesTestPage from "./ExpandablesTestPage";
-import Sidebar from "./Sidebar";
+import Navbar from "./components/layout/Navbar";
+import Homepage from "./components/pages/Homepage";
+import ModalsTestPage from "./components/pages/ModalsTestPage";
+import ExpandablesTestPage from "./components/pages/ExpandablesTestPage";
+import Sidebar from "./components/layout/Sidebar";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<
-    "home" | "modals" | "expandables"
-  >("home");
+  const [currentPage, setCurrentPage] = useState<"sparse" | "corplore" | "tod">(
+    "sparse",
+  );
 
   const renderPage = () => {
     switch (currentPage) {
-      case "home":
+      case "sparse":
         return <Homepage />;
-      case "modals":
+      case "corplore":
         return <ModalsTestPage />;
-      case "expandables":
+      case "tod":
         return <ExpandablesTestPage />;
       default:
         return <Homepage />;
@@ -28,9 +28,9 @@ function App() {
     <div className="width-75 margin-center">
       <Navbar />
       <div className="display-flex">
-        <Sidebar variant="nav" onNavigate={setCurrentPage} />
+        <Sidebar variant="stories" />
         {renderPage()}
-        <Sidebar variant="cards" />
+        <Sidebar variant="info" onNavigate={setCurrentPage} />
       </div>
     </div>
   );
