@@ -5,12 +5,12 @@ const ExpandablesTestPage = () => {
 
   return (
     <main className="page container">
-      <h1 className="page-title">Expandables Testing Page</h1>
-      <p className="page-meta">Test dropdowns, hoverables, and tooltips</p>
+      <h1 className="title">Expandables Testing Page</h1>
+      <p className="meta">Test dropdowns, hoverables, and tooltips</p>
 
       <div className="display-flex-column gap-large">
         <div className="container padding-large">
-          <h2 className="page-title">Dropdown with .expandable Class</h2>
+          <h2 className="title">Dropdown with .expandable Class</h2>
           <p>JavaScript-controlled dropdown using .revealed toggle</p>
           <button
             className="btn-color margin-medium"
@@ -28,7 +28,7 @@ const ExpandablesTestPage = () => {
         </div>
 
         <div className="container padding-large">
-          <h2 className="page-title">Dropdown with :hover</h2>
+          <h2 className="title">Dropdown with :hover</h2>
           <p>Pure CSS dropdown using :hover pseudo-class</p>
           <div className="hover-trigger">
             <button className="btn-color margin-medium">Hover Over Me</button>

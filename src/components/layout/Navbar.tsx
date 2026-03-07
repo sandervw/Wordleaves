@@ -22,11 +22,14 @@ const Navbar = ({ onBack }: NavbarProps) => {
 
   return (
     <nav className="navbar container">
-      <div className="display-flex gap-medium">
+      <div className="display-flex">
         {onBack && <SVG name="return" props={{ onClick: onBack }} />}
       </div>
-      <div className="navbar-title">Wordleaves</div>
-      <div className="display-flex gap-medium">
+      <div className="display-flex-column gap-small">
+        <div className="navbar-title flex-child-center">Wordleaves</div>
+        <p className="meta flex-child-center">By Sander VanWilligen</p>
+      </div>
+      <div className="display-flex">
         <SVG
           name={theme === "dark" ? "sun" : "moon"}
           className="flex-child-center"
