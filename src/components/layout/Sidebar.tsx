@@ -1,68 +1,33 @@
 import type { ReactElement } from "react";
+import type { DocEntry } from "../../types/DocEntry";
 
 interface SidebarProps {
-  readonly variant?: "stories" | "domain";
-  readonly onNavigate?: (page: "sparse" | "corplore" | "tod") => void;
+  readonly items: readonly DocEntry[];
+  readonly title: string;
+  readonly onNavigate: (page: string) => void;
 }
 
-const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps): ReactElement => {
-  const handleNavigate = (page: "sparse" | "corplore" | "tod"): void => {
-    onNavigate?.(page);
-  };
+const formatName = (name: string): string => {
+  return name.replace(/-/g, " ");
+};
 
-  if (variant === "domain") {
-    return (
-      <aside className="sidebar container">
-        <h3 className="padding-small">Domains</h3>
-        <nav>
-          <ul className="list">
-            <li className="list-item">
-              <a
-                href="#"
-                className="link"
-                onClick={() => handleNavigate("corplore")}
-              >
-                CorpLore
-              </a>
-            </li>
-            <li className="list-item">
-              <a
-                href="#"
-                className="link"
-                onClick={() => handleNavigate("tod")}
-              >
-                Time of Dying
-              </a>
-            </li>
-            <li className="list-item">
-              <a
-                href="#"
-                className="link"
-                onClick={() => handleNavigate("sparse")}
-              >
-                Sparse CSS
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
-    );
-  }
-
+const Sidebar = ({ items, title, onNavigate }: SidebarProps): ReactElement => {
   return (
     <aside className="sidebar container">
-      <h3 className="padding-small">Stories</h3>
+      <h3 className="padding-small">{title}</h3>
       <nav>
         <ul className="list">
-          <li className="list-item">
-            <a
-              href="#"
-              className="link"
-              onClick={(e) => e.preventDefault()}
-            >
-              story 1
-            </a>
-          </li>
+          {items.map((item) => (
+            <li key={item.name} className="list-item">
+              <a
+                href="#"
+                className="link"
+                onClick={(e) => { e.preventDefault(); onNavigate(item.name); }}
+              >
+                {formatName(item.name)}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </aside>

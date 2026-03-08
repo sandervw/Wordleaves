@@ -1,16 +1,15 @@
+import type { ReactElement } from "react";
 import MarkdownText from "../parts/MarkdownText";
 
-const Page = ({ pageText }: { pageText?: string }) => {
-  // TODO: Fetch page text from text passed from file in domaindocs or storydocs
-  // for now use placeholder text
-  if (!pageText) {
-    pageText = "TODO Page text Here";
-  }
+interface PageProps {
+  readonly pageText: string;
+}
 
+const Page = ({ pageText }: PageProps): ReactElement => {
   return (
     <main className="page container">
       <div className="page-text">
-        <MarkdownText text={pageText} isEditable={true} />
+        <MarkdownText key={pageText} text={pageText} isEditable={true} />
       </div>
     </main>
   );
