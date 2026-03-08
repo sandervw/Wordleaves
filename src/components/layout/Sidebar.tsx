@@ -14,7 +14,7 @@ const formatName = (name: string): string => {
 const Sidebar = ({ items, title, onNavigate }: SidebarProps): ReactElement => {
   return (
     <aside className="sidebar container">
-      <h3 className="padding-small">{title}</h3>
+      <h3 className="padding-medium">{title}</h3>
       <nav>
         <ul className="list">
           {items.map((item) => (
@@ -22,7 +22,10 @@ const Sidebar = ({ items, title, onNavigate }: SidebarProps): ReactElement => {
               <a
                 href="#"
                 className="link"
-                onClick={(e) => { e.preventDefault(); onNavigate(item.name); }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  onNavigate(item.name);
+                }}
               >
                 {formatName(item.name)}
               </a>

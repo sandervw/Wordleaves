@@ -67,7 +67,7 @@ const App = (): ReactElement => {
   return (
     <div className="width-75 margin-center">
       <Navbar />
-      <div className="display-flex">
+      <div className="display-grid-3-column">
         <Sidebar
           items={storyEntries}
           title="Stories"

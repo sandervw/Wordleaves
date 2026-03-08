@@ -6,24 +6,21 @@ const Homepage = ({
   return (
     <main className="page container">
       <div className="page-text">
-        <p>This site hosts my stories and fiction settings.</p>
-        <ul>
-          <li>Random stories are on the left sidebar.</li>
-          <li>Grouped stories and documents are on the right.</li>
-        </ul>
-        <p>
-          Built with
-          <a
-            href="#"
-            className="link"
-            onClick={(e) => {
-              e.preventDefault();
-              onNavigate("Sparse-Code");
-            }}
-          >
-            Sparse Code
-          </a>
-        </p>
+        <h3 className="title">
+          This site hosts my stories and fiction settings.
+        </h3>
+        <p>Random stories are on the left sidebar.</p>
+        <p>Grouped stories and documents are on the right.</p>
+        <a
+          href="#"
+          className="link font-italic"
+          onClick={(e) => {
+            e.preventDefault();
+            onNavigate("Sparse-Code");
+          }}
+        >
+          Built to Sparse Laws
+        </a>
       </div>
     </main>
   );

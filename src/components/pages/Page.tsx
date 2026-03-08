@@ -8,8 +8,8 @@ interface PageProps {
 const Page = ({ pageText }: PageProps): ReactElement => {
   return (
     <main className="page container">
-      <div className="page-text">
-        <MarkdownText key={pageText} text={pageText} isEditable={true} />
+      <div className="page-text padding-medium">
+        <MarkdownText key={pageText} text={pageText} />
       </div>
     </main>
   );
