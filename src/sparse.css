@@ -562,7 +562,7 @@ svg:hover {
 .card,
 .card-link {
   padding: var(--small);
-  background-color: var(--color-bg-primary);
+  background-color: transparent;
 }
 .card-link {
   cursor: pointer;
