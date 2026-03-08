@@ -557,9 +557,19 @@ svg:hover {
   CARD: A single item of content
   - Text, image, title, etc. 
   ============================================*/
-.card {
+.card,
+.card-link {
   padding: var(--small);
   background-color: var(--color-bg-primary);
+}
+.card-link {
+  cursor: pointer;
+  border: var(--border-width) solid var(--color-gray);
+  border-radius: var(--medium);
+  transition: var(--transition-fast);
+}
+.card-link:hover {
+  border-color: var(--color-accent);
 }
 .card-header {
   display: flex;

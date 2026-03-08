@@ -28,7 +28,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Story and domain content files
-src/storydocs/*
-src/domaindocs/*

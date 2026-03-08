@@ -5,11 +5,13 @@ import "./classic.css";
 import { Navbar } from "./components/layout/Navbar";
 import { Homepage } from "./components/pages/Homepage";
 import { Page } from "./components/pages/Page";
+import { DomainPage } from "./components/pages/DomainPage";
 import { Sidebar } from "./components/layout/Sidebar";
 import type { DocEntry } from "./types/DocEntry";
+import type { DomainCardEntry, DomainEntry } from "./types/DomainEntry";
 
-// Docs for story settings or design descriptions
-const domainDocs = import.meta.glob("./domaindocs/*.md", {
+// Docs for story settings or design descriptions (now in subfolders)
+const domainDocs = import.meta.glob("./domaindocs/**/*.md", {
   query: "?raw",
   import: "default",
   eager: true,
@@ -27,7 +29,24 @@ const extractName = (path: string): string => {
   return filename.replace(".md", "");
 };
 
-// From the list of file names, create create an array of name/content objects
+// Pull the # heading from the first line of a markdown file
+const extractTitle = (content: string): string => {
+  const firstLine = content.split("\n")[0] ?? "";
+  return firstLine.replace(/^#+\s*/, "").trim();
+};
+
+// Grab the first couple of non-empty content lines after the title
+const extractPreview = (content: string): string => {
+  const lines = content
+    .split("\n")
+    .map((l) => l.trim())
+    .filter((l) => l.length > 0);
+  const previewLines = lines.slice(1, 3).join(" ");
+  const stripped = previewLines.replace(/[#*_`[\]]/g, "");
+  return stripped.length > 150 ? stripped.substring(0, 150) + "..." : stripped;
+};
+
+// Build story entries (unchanged)
 const buildEntries = (
   docs: Readonly<Record<string, string>>,
 ): readonly DocEntry[] =>
@@ -36,21 +55,81 @@ const buildEntries = (
     content,
   }));
 
-const domainEntries = buildEntries(domainDocs);
-const storyEntries = buildEntries(storyDocs);
+// Build domain entries grouped by subfolder
+const buildDomainEntries = (
+  docs: Readonly<Record<string, string>>,
+): readonly DomainEntry[] => {
+  const domainMap = new Map<string, DomainCardEntry[]>();
 
-// Create a map of all entries for easy lookup when navigating to a page
+  for (const [path, content] of Object.entries(docs)) {
+    // path like ./domaindocs/CorpLore/lore.md
+    const parts = path.split("/");
+    const domainName = parts[parts.length - 2] ?? "";
+    const fileName = extractName(path);
+
+    if (!domainMap.has(domainName)) {
+      domainMap.set(domainName, []);
+    }
+
+    const cards = domainMap.get(domainName);
+    if (cards) {
+      cards.push({
+        name: `${domainName}/${fileName}`,
+        title: extractTitle(content),
+        preview: extractPreview(content),
+        content,
+      });
+    }
+  }
+
+  return Array.from(domainMap.entries()).map(([name, cards]) => ({
+    name,
+    cards: [...cards].sort((a, b) => {
+      if (a.name.endsWith("/lore")) return -1;
+      if (b.name.endsWith("/lore")) return 1;
+      return 0;
+    }),
+  }));
+};
+
+const storyEntries = buildEntries(storyDocs);
+const domainEntries = buildDomainEntries(domainDocs);
+
+// Sidebar needs DocEntry[] for domains (just names, content unused)
+const domainSidebarEntries: readonly DocEntry[] = domainEntries.map((d) => ({
+  name: d.name,
+  content: "",
+}));
+
+// Map of domain name -> DomainEntry for quick lookup
+const domainMap = new Map<string, DomainEntry>(
+  domainEntries.map((d) => [d.name, d]),
+);
+
+// Map of all individual content pages (stories + domain sub-docs)
 const allEntries = new Map<string, string>([
-  ...domainEntries.map(({ name, content }) => [name, content] as const),
   ...storyEntries.map(({ name, content }) => [name, content] as const),
+  ...domainEntries.flatMap((d) =>
+    d.cards.map((card) => [card.name, card.content] as const),
+  ),
 ]);
 
 const App = (): ReactElement => {
   const [currentPage, setCurrentPage] = useState<string | null>(null);
 
-  const pageContent = currentPage
-    ? (allEntries.get(currentPage) ?? null)
-    : null;
+  const domain = currentPage ? domainMap.get(currentPage) ?? null : null;
+  const pageContent =
+    currentPage && !domain ? (allEntries.get(currentPage) ?? null) : null;
+
+  const renderContent = (): ReactElement => {
+    if (domain) {
+      return <DomainPage domain={domain} onNavigate={setCurrentPage} />;
+    }
+    if (pageContent) {
+      return <Page pageText={pageContent} />;
+    }
+    return <Homepage />;
+  };
 
   return (
     <div className="width-75 margin-center">
@@ -61,9 +140,9 @@ const App = (): ReactElement => {
           title="Stories"
           onNavigate={setCurrentPage}
         />
-        {pageContent ? <Page pageText={pageContent} /> : <Homepage />}
+        {renderContent()}
         <Sidebar
-          items={domainEntries}
+          items={domainSidebarEntries}
           title="Domains"
           onNavigate={setCurrentPage}
         />
