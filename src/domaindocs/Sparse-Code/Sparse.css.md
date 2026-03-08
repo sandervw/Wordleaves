@@ -1,5 +1,12 @@
 # The Laws of Sparse CSS
 
+## The Primary Laws
+
+1. All Sparse CSS Laws must adhere to the Laws defined in `Sparse.md`. `No Exceptions.`
+2. All CSS specific Sparse Laws must be specified within this file. `No Exceptions.`
+
+## CSS Specific Laws
+
 3. There are no more than 5 of any variable type. `No Exceptions.`
 4. There are no hardcoded numeric values - only CSS variables. `No Exceptions.`
 5. There are no ems - only rems. `No Exceptions.`

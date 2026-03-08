@@ -18,11 +18,11 @@ The words of Othelmedir the Necromancer fade in time with the sinking sun, runni
 
 **Firebug Lantern:** Buzzes softly, and sheds more light than a candle. It isn't much, but it may repel the giant slugs.
 
-\#
+---
 
 Necromancy will not work in the Landmine Forest; the poison within the landmines makes the dead sleep. If Othelmedir's Summoned Golem survived your encounter with Old Twothroats, it perishes once you enter the forest.
 
-\#
+---
 
 Night sets thick like syrup between the trunks. As you follow the soft yellow glow of your lantern through the woods, you hear a tender, heartfelt voice.
 
@@ -40,7 +40,7 @@ You come out in a clearing beside a forest gorge. Sitting on a boulder at the br
 
 You may stab the skeleton through its ribs, at the spot where its heart would be. If you do, it clasps its hands over its chest, stumbles backward, and plummets down the gorge. You see its white bones scatter upon the rocks before they disappear. If you search the knapsack it leaves behind, you find a poison landmine.
 
-\#
+---
 
 You come across your first spoor of giant slug. The low grass of the forest floor glistens like dew in a whale-wide trail. Only a moment later, a heavy, wet sliding noise catches your attention. You cannot tell from where the sound originates..
 
@@ -50,7 +50,7 @@ There is one thin crack in the tree-stump wood. Through it, you watch a shining,
 
 The slug slides on: *Squelch. Squelch. Squelch.*
 
-\#
+---
 
 As night ascends, the moon shines full over the canopy. The forest floor is a calico of shadow and silver. You wander up the steep slope of a long hill. The air seems fresher as you near the top.
 
@@ -60,7 +60,7 @@ The trees are sparse here, and you can look over the surrounding forest. You spo
 
 *There are few safe places for the un-dead within Landmine Forest.*
 
-\#
+---
 
 After walking for several hours and narrowly avoiding the notice of another giant slug, you arrive at a mutation in the undergrowth. Three fig trees have woven together to form a writhing wall of roots. A dark tunnel plunges through the wall at the trees' epicenter.
 
@@ -72,11 +72,11 @@ This bright red mushroom is sacred to the distended hermits; a holy order of mon
 
 The entrance to the root-cave is too small for the giant slugs to slide into. You have not slept since the previous dawn, and sleep beside the red mushroom sounds wonderful.
 
-\#
+---
 
 *Little do the easy sleeping ground, and heart that's ill at ease, concur.*
 
-\#
+---
 
 Though the fungus's song seemed sweet at first, you soon find yourself sinking into wakeless dreams. You realize that several days have passed since you laid down by the mushroom. Crimson roots have grown over your chest, your legs, your neck, your sword arm; you are pinned to the forest floor.
 
@@ -84,7 +84,7 @@ The only way to escape the Song-Singing Fungus is to use your torchbug lantern. 
 
 If your lantern is still lit, you may yet survive. Use your last free limb to reach out, grab the handle, and hurl it at the red mushroom. The paper lantern will burst; the torchbugs will sting the red mushroom, killing it. Your root prison falls away. The torchbugs scatter like embers from a kicked fire, however, leaving you to venture on without light.
 
-\#
+---
 
 **Wraithcotte Estate:**
 
@@ -154,7 +154,7 @@ The only way to pass The Door with a Face is to answer all four of its riddles. 
 
 The door slides in with a gasp of old air. As you step inside, the rotting floorboards crack. Then break. You plunge into darkness.
 
-\#
+---
 
 **Inside Wraithcotte:**
 
@@ -166,7 +166,7 @@ Your lungs feel weak and your muscles shake as you rise off the floor. Several o
 
 **The Sightless Pit:**
 
-**\#**
+**---**
 
 Deep and unlit, the halls beneath the Wraithcotte Estate have uncounted floors, floor-below-floor, and there are more passages leading down than up.
 
@@ -180,7 +180,7 @@ The wine barrels which line the walls are all hollow and empty. Each barrel has 
 
 At first the icon seems harmless. You soon realize, however, that if you stare at any icon for a long time, you feel the acrid taste of sour wine in your throat, and your head starts to swim. Thereafter, you keep your eyes averted.
 
-\#
+---
 
 **The Hall of Sculptures:**
 
@@ -192,7 +192,7 @@ As you start down this corridor of The Sightless Pit, its end remains elusive. T
 
 **The Woman with Backwards Eyes:** She sees inside you.
 
-\#
+---
 
 At the end of The Hall of Sculptures you find a room with a well. A wrinkled, two-ton grandmother sits beside the well in an enormous rocking chair. She holds a fishing rod of proportional size over the opening of the well - at the end of the line is a basket the size of a bathtub.
 
@@ -224,7 +224,7 @@ Keep as much space between yourself and the skeleton as possible, and avoid his 
 
 If you sever his bell-hand, The Bell Ringer will be stunned. You can then dispatch him with ease.
 
-\#
+---
 
 With The Bell Ringer dead an eerie silence settles over Wraithcotte manor, silence unbroken even by rats. After pausing to catch your breath, you venture on.
 
@@ -246,7 +246,7 @@ As you explore, you may come across the following items:
 
 **Caged Whip-poor-will:** How this bird has survived in the mansion, you do not know. If you release it from its cage, it flies away. A few days later it will find you again, drop an emerald in your lap, then leave forever.
 
-\#
+---
 
 **The Chapel:**
 
@@ -256,7 +256,7 @@ The floor is sticky as you step inside; you have to pull each foot off the cobbl
 
 You hear footsteps approaching from behind.
 
-\#
+---
 
 **Merilka Wraithcotte:**
 
@@ -272,7 +272,7 @@ The first serious wound you inflict on Merilka will send her into hysterical wee
 
 After a relentless flurry, she will need to rest and breathe. Use this as a chance to doff your helm and unbuckle your breastplate; they are useless against her attacks anyway. When she blinks away her tears and attacks again, your reflection will startle her; she beholds her own bloodshot, tearstained eyes in her death-pale face. This is your only opportunity; stab her through the heart with your Bitter Steel Blade.
 
-\#
+---
 
 Merilka Wraithcotte falls. Her rapiers disintegrate. With a last sob, she dies.
 

@@ -14,7 +14,9 @@
 `No Exceptions.` */
 
 /* Poppins and Baskervville */
-@import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Poppins:wght@300;500;700&family=VT323&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Baskervville&family=Poppins:wght@300;500;700&family=VT323&display=swap"); */
+/* iA Writer Quattro */
+@import url("https://fonts.cdnfonts.com/css/ia-writer-quattro-s");
 
 /*============================================
   RESET
@@ -22,7 +24,7 @@
 *,
 *::before,
 *::after {
-  font-family: "poppins", arial, sans-serif;
+  font-family: "ia-writer-quattro-s", arial, sans-serif;
   color: var(--color-text-primary);
   text-decoration: none;
   user-select: none;
