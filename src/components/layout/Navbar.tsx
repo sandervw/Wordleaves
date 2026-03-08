@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
+import type { ReactElement } from "react";
 import SVG from "../parts/SVG";
 
 interface NavbarProps {
-  onBack?: () => void;
+  readonly onBack?: () => void;
 }
 
-const Navbar = ({ onBack }: NavbarProps) => {
+const Navbar = ({ onBack }: NavbarProps): ReactElement => {
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem("theme");
     return saved || "dark";
@@ -16,7 +17,7 @@ const Navbar = ({ onBack }: NavbarProps) => {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  const toggleTheme = () => {
+  const toggleTheme = (): void => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
@@ -40,4 +41,4 @@ const Navbar = ({ onBack }: NavbarProps) => {
   );
 };
 
-export default Navbar;
+export { Navbar };

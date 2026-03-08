@@ -1,10 +1,16 @@
+import type { ReactElement } from "react";
+
 interface SidebarProps {
-  variant?: "stories" | "info";
-  onNavigate?: (page: "sparse" | "corplore" | "tod") => void;
+  readonly variant?: "stories" | "domain";
+  readonly onNavigate?: (page: "sparse" | "corplore" | "tod") => void;
 }
 
-const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps) => {
-  if (variant === "info") {
+const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps): ReactElement => {
+  const handleNavigate = (page: "sparse" | "corplore" | "tod"): void => {
+    onNavigate?.(page);
+  };
+
+  if (variant === "domain") {
     return (
       <aside className="sidebar container">
         <h3 className="padding-small">Domains</h3>
@@ -14,10 +20,7 @@ const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps) => {
               <a
                 href="#"
                 className="link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onNavigate?.("corplore");
-                }}
+                onClick={() => handleNavigate("corplore")}
               >
                 CorpLore
               </a>
@@ -26,10 +29,7 @@ const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps) => {
               <a
                 href="#"
                 className="link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onNavigate?.("tod");
-                }}
+                onClick={() => handleNavigate("tod")}
               >
                 Time of Dying
               </a>
@@ -38,22 +38,7 @@ const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps) => {
               <a
                 href="#"
                 className="link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  // TODO: Add Cylinder World page
-                }}
-              >
-                Cylinder World
-              </a>
-            </li>
-            <li className="list-item">
-              <a
-                href="#"
-                className="link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onNavigate?.("sparse");
-                }}
+                onClick={() => handleNavigate("sparse")}
               >
                 Sparse CSS
               </a>
@@ -62,28 +47,26 @@ const Sidebar = ({ variant = "stories", onNavigate }: SidebarProps) => {
         </nav>
       </aside>
     );
-  } else
-    return (
-      <aside className="sidebar container">
-        <h3 className="padding-small">Stories</h3>
-        <nav>
-          <ul className="list">
-            <li className="list-item">
-              <a
-                href="#"
-                className="link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  // TODO: story page
-                }}
-              >
-                story 1
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
-    );
+  }
+
+  return (
+    <aside className="sidebar container">
+      <h3 className="padding-small">Stories</h3>
+      <nav>
+        <ul className="list">
+          <li className="list-item">
+            <a
+              href="#"
+              className="link"
+              onClick={(e) => e.preventDefault()}
+            >
+              story 1
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+  );
 };
 
-export default Sidebar;
+export { Sidebar };

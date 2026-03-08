@@ -1,39 +1,40 @@
 import { useState } from "react";
+import type { ReactElement } from "react";
 import "./sparse.css";
 import "./classic.css";
-import Navbar from "./components/layout/Navbar";
-import Homepage from "./components/pages/Homepage";
-import ModalsTestPage from "./components/pages/ModalsTestPage";
-import ExpandablesTestPage from "./components/pages/ExpandablesTestPage";
-import Sidebar from "./components/layout/Sidebar";
+import { Navbar } from "./components/layout/Navbar";
+import { Homepage } from "./components/pages/Homepage";
+import { Page } from "./components/pages/Page";
+import { Sidebar } from "./components/layout/Sidebar";
 
-function App() {
+const App = (): ReactElement => {
   const [currentPage, setCurrentPage] = useState<"sparse" | "corplore" | "tod">(
     "sparse",
   );
 
-  const renderPage = () => {
+  const renderPage = (): ReactElement => {
     switch (currentPage) {
       case "sparse":
         return <Homepage />;
       case "corplore":
-        return <ModalsTestPage />;
+        return <Page />;
       case "tod":
-        return <ExpandablesTestPage />;
+        return <Page />;
       default:
         return <Homepage />;
     }
   };
+
   return (
     <div className="width-75 margin-center">
       <Navbar />
       <div className="display-flex">
         <Sidebar variant="stories" />
         {renderPage()}
-        <Sidebar variant="info" onNavigate={setCurrentPage} />
+        <Sidebar variant="domain" onNavigate={setCurrentPage} />
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export { App };
