@@ -1,3 +1,11 @@
+---
+title: "The Laws of Sparse Typescript"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Sparse Code"
+part: 3
+---
+
 # The Laws of Sparse Typescript
 
 ## The Primary Laws

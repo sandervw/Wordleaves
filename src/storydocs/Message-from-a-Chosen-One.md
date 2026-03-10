@@ -1,3 +1,9 @@
+---
+title: "Message from a Chosen One"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Message from a Chosen One
 
 My brother citizen Anton Valery lately feels cast down from the clouds, since the complete destruction of life on our planet, Dios, by orbital flare. Brother Valery now questions the permanence of everything. If an entire civilization can be wiped from a celestial body, what hope is there for mere souls? A question he feels all the more potent for its subject, having forever considered Dios the most able of the outer colonies to withstand assault from the Starpassed Doom. To Valery, Dios seemed invulnerable.

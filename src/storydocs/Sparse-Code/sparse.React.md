@@ -1,3 +1,11 @@
+---
+title: "The Laws of Sparse React"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Sparse Code"
+part: 2
+---
+
 # The Laws of Sparse React
 
 ## The Primary Laws

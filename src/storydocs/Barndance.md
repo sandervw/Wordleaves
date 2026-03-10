@@ -1,3 +1,9 @@
+---
+title: "Barndance"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Barndance
 
 "Iowa State won't even blink, my lad. The barn loses 5% a year easy."

@@ -1,3 +1,11 @@
+---
+title: "The Lake of the Lost"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Time of Dying"
+part: 1
+---
+
 # The Lake of the Lost
 
 "Stop. Good job. That's a nice obedient set of mules you've got, friend. Now take those long, black fingers off the reins. Lock the axle. Now set those fingers on the rail in plain view. Keep those hands steady too. My comrade here's a spaz with his crossbow lever."

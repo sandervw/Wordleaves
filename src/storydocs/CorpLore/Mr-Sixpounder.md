@@ -1,3 +1,11 @@
+---
+title: "Mr. Sixpounder"
+author: "Sander VanWilligen"
+date: "2026"
+domain: "CorpLore"
+part: 1
+---
+
 # Mr. Sixpounder
 
 The Tuple rose from the carpet at 2:47 AM, thirteen minutes before Mr. Sixpounder was due.

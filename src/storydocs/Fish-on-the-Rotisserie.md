@@ -1,3 +1,9 @@
+---
+title: "Fish on the Rotisserie"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Fish on the Rotisserie
 
 *Click.*

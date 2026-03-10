@@ -1,3 +1,9 @@
+---
+title: "Keith, Lionel, and Turkey"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Keith, Lionel, and Turkey
 
 Scene: Meyer's Petting Zoo. A small, round enclosure. Soft animals are munching green grass.

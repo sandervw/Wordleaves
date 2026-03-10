@@ -1,3 +1,9 @@
+---
+title: "Lumpy Bumpy"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Lumpy Bumpy
 
 **Tape static**

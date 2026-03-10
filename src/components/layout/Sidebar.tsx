@@ -1,14 +1,22 @@
 import type { ReactElement } from "react";
 import type { DocEntry } from "../../types/DocEntry";
 
+type SidebarItem = DocEntry | string;
+
 interface SidebarProps {
-  readonly items: readonly DocEntry[];
+  readonly items: readonly SidebarItem[];
   readonly title: string;
   readonly onNavigate: (page: string) => void;
 }
 
-const formatName = (name: string): string => {
-  return name.replace(/-/g, " ");
+const getLabel = (item: SidebarItem): string => {
+  if (typeof item === "string") return item;
+  return item.meta.title || item.name.replace(/-/g, " ");
+};
+
+const getKey = (item: SidebarItem): string => {
+  if (typeof item === "string") return item;
+  return item.name;
 };
 
 const Sidebar = ({ items, title, onNavigate }: SidebarProps): ReactElement => {
@@ -18,16 +26,16 @@ const Sidebar = ({ items, title, onNavigate }: SidebarProps): ReactElement => {
       <nav>
         <ul className="list">
           {items.map((item) => (
-            <li key={item.name} className="list-item">
+            <li key={getKey(item)} className="list-item">
               <a
                 href="#"
                 className="link"
                 onClick={(e) => {
                   e.preventDefault();
-                  onNavigate(item.name);
+                  onNavigate(getKey(item));
                 }}
               >
-                {formatName(item.name)}
+                {getLabel(item)}
               </a>
             </li>
           ))}

@@ -1,3 +1,11 @@
+---
+title: "Wraithcotte"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Time of Dying"
+part: 2
+---
+
 # Wraithcotte
 
 *"The Silver Ring is known to me. I have seen one, once. Like a tiny circle of pure moonlight.*

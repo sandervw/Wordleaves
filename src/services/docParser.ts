@@ -1,14 +1,93 @@
 import type { DocEntry } from "../types/DocEntry";
-import type { DomainCardEntry, DomainEntry } from "../types/DomainEntry";
+import type { Frontmatter } from "../types/Frontmatter";
 
 const extractName = (path: string): string => {
   const filename = path.split("/").pop() ?? "";
   return filename.replace(".md", "");
 };
 
-const extractTitle = (content: string): string => {
-  const firstLine = content.split("\n")[0] ?? "";
-  return firstLine.replace(/^#+\s*/, "").trim();
+const parseFrontmatter = (
+  raw: string,
+): { readonly meta: Frontmatter; readonly body: string } => {
+  const trimmed = raw.trimStart();
+  if (!trimmed.startsWith("---")) {
+    return {
+      meta: { title: "", author: "", date: "" },
+      body: raw,
+    };
+  }
+
+  const endIndex = trimmed.indexOf("---", 3);
+  if (endIndex === -1) {
+    return {
+      meta: { title: "", author: "", date: "" },
+      body: raw,
+    };
+  }
+
+  const yamlBlock = trimmed.slice(3, endIndex).trim();
+  const body = trimmed.slice(endIndex + 3).trimStart();
+  const data: Record<string, unknown> = {};
+
+  for (const line of yamlBlock.split("\n")) {
+    const colonIndex = line.indexOf(":");
+    if (colonIndex === -1) continue;
+
+    const key = line.slice(0, colonIndex).trim();
+    let value: string = line.slice(colonIndex + 1).trim();
+
+    // Remove surrounding quotes
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    // Parse inline YAML arrays: [a, b, c]
+    if (value.startsWith("[") && value.endsWith("]")) {
+      const items = value
+        .slice(1, -1)
+        .split(",")
+        .map((s) => {
+          const trimmedItem = s.trim();
+          if (
+            (trimmedItem.startsWith('"') && trimmedItem.endsWith('"')) ||
+            (trimmedItem.startsWith("'") && trimmedItem.endsWith("'"))
+          ) {
+            return trimmedItem.slice(1, -1);
+          }
+          return trimmedItem;
+        })
+        .filter((s) => s.length > 0);
+      data[key] = items;
+      continue;
+    }
+
+    // Parse numbers
+    if (/^\d+$/.test(value)) {
+      data[key] = Number(value);
+      continue;
+    }
+
+    data[key] = value;
+  }
+
+  const meta: Frontmatter = {
+    title: String(data["title"] ?? ""),
+    author: String(data["author"] ?? ""),
+    date: String(data["date"] ?? ""),
+    ...(data["domain"] !== undefined && { domain: String(data["domain"]) }),
+    ...(data["collection"] !== undefined && {
+      collection: String(data["collection"]),
+    }),
+    ...(typeof data["part"] === "number" && { part: data["part"] }),
+    ...(Array.isArray(data["tags"]) && {
+      tags: data["tags"].map(String),
+    }),
+  };
+
+  return { meta, body };
 };
 
 const extractPreview = (content: string): string => {
@@ -24,44 +103,46 @@ const extractPreview = (content: string): string => {
 const buildEntries = (
   docs: Readonly<Record<string, string>>,
 ): readonly DocEntry[] =>
-  Object.entries(docs).map(([path, content]) => ({
-    name: extractName(path),
-    content,
-  }));
+  Object.entries(docs).map(([path, raw]) => {
+    const { meta, body } = parseFrontmatter(raw);
+    return {
+      name: extractName(path),
+      content: body,
+      meta,
+    };
+  });
 
-const buildDomainEntries = (
-  docs: Readonly<Record<string, string>>,
-): readonly DomainEntry[] => {
-  const domainMap = new Map<string, DomainCardEntry[]>();
+const getStandaloneStories = (
+  entries: readonly DocEntry[],
+): readonly DocEntry[] =>
+  entries.filter((e) => !e.meta.domain);
 
-  for (const [path, content] of Object.entries(docs)) {
-    const parts = path.split("/");
-    const domainName = parts[parts.length - 2] ?? "";
-    const fileName = extractName(path);
+const groupByDomain = (
+  entries: readonly DocEntry[],
+): ReadonlyMap<string, readonly DocEntry[]> => {
+  const map = new Map<string, DocEntry[]>();
 
-    if (!domainMap.has(domainName)) {
-      domainMap.set(domainName, []);
+  for (const entry of entries) {
+    const domain = entry.meta.domain;
+    if (!domain) continue;
+
+    if (!map.has(domain)) {
+      map.set(domain, []);
     }
-
-    const cards = domainMap.get(domainName);
-    if (cards) {
-      cards.push({
-        name: `${domainName}/${fileName}`,
-        title: extractTitle(content),
-        preview: extractPreview(content),
-        content,
-      });
-    }
+    map.get(domain)!.push(entry);
   }
 
-  return Array.from(domainMap.entries()).map(([name, cards]) => ({
-    name,
-    cards: [...cards].sort((a, b) => {
-      if (a.name.endsWith("/lore")) return -1;
-      if (b.name.endsWith("/lore")) return 1;
-      return 0;
-    }),
-  }));
+  // Sort entries within each domain: by part (if present), then by title
+  for (const [, domainEntries] of map) {
+    domainEntries.sort((a, b) => {
+      const partA = a.meta.part ?? Infinity;
+      const partB = b.meta.part ?? Infinity;
+      if (partA !== partB) return partA - partB;
+      return a.meta.title.localeCompare(b.meta.title);
+    });
+  }
+
+  return map;
 };
 
-export { buildEntries, buildDomainEntries };
+export { buildEntries, getStandaloneStories, groupByDomain, extractPreview };

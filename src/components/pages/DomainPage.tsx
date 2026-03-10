@@ -1,25 +1,27 @@
 import type { ReactElement } from "react";
-import type { DomainEntry } from "../../types/DomainEntry";
+import type { DocEntry } from "../../types/DocEntry";
+import { extractPreview } from "../../services/docParser";
 import { DomainCard } from "../parts/DomainCard";
 
 interface DomainPageProps {
-  readonly domain: DomainEntry;
+  readonly domainName: string;
+  readonly entries: readonly DocEntry[];
   readonly onNavigate: (page: string) => void;
 }
 
 const DomainPage = ({
-  domain,
+  entries,
   onNavigate,
 }: DomainPageProps): ReactElement => {
   return (
     <main className="page container">
       <div className="display-flex-column gap-medium">
-        {domain.cards.map((card) => (
+        {entries.map((entry) => (
           <DomainCard
-            key={card.name}
-            title={card.title}
-            preview={card.preview}
-            onNavigate={() => onNavigate(card.name)}
+            key={entry.name}
+            title={entry.meta.title}
+            preview={extractPreview(entry.content)}
+            onNavigate={() => onNavigate(entry.name)}
           />
         ))}
       </div>

@@ -1,3 +1,9 @@
+---
+title: "25,000 Sugar Lumps"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # 25,000 Sugar Lumps
 
 *This is a work of fiction. Names, characters, ants, places, events and products are either creations of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.*

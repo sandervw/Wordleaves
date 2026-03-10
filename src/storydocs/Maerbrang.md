@@ -1,3 +1,9 @@
+---
+title: "Maerbrang"
+author: "Sander VanWilligen"
+date: "2026"
+---
+
 # Maerbrang
 
 If one had stood upon that border hill where Gaelic woodland met open moorland, one would have watched the cyclic toiling of the Wind, threading itself amongst the standing stones that crowned the summit like knuckles forcing through the hill's skin. The tall menhirs suffered that long attention in their weathering: windward faces worn smooth, leeward sides pitted and scabbed with lichen that clung to any surface the gale could not scour clean. Between the stones, sheep's fescue trembled, whilst tormentil spotted the grass with small yellow blooms, and upon one stone the cupmarks swallowed centuries of rain. The Wind followed the slope down, carrying the tannin-smell of the woodland below, where oak and hazel and blackthorn formed the weald's margin in a dark tangle, bracket fungi clamping to the nearest trunks like pale limpets, feeding on rot. At the foot of that slope the Wind halted and rolled against the canopy; and for a moment the whole weald cast its penumbra uphill, back to the knuckling stone.

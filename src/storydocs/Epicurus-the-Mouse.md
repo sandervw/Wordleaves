@@ -1,3 +1,9 @@
+---
+title: "Epicurus the Mouse"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Epicurus the Mouse
 
 In the time when man first captured the moon, there rose upon its surface a city, Selene; an Atlantis risen from the pockmarked lunar sea. All the best varieties of brain thought and willed in Selene. There were brains that spent their whole day - which was twenty-nine point five days of earthly time - in the contemplation of dust and rocks. There were painterly brains, and artificial brains, and brains that could only fit in a child's skull.

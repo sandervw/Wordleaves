@@ -1,3 +1,11 @@
+---
+title: "The Laws of Sparse Code"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Sparse Code"
+part: 0
+---
+
 # The Laws of Sparse Code
 
 ## The Master Law

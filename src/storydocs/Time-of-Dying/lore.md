@@ -1,3 +1,11 @@
+---
+title: "The Time of Dying"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Time of Dying"
+part: 0
+---
+
 # The Time of Dying
 
 Three thousand years ago, seven great necromancers combined their power and dead armies to exterminate the demon kings. Life was wiped from the continent. All other magics and gods fell. Only necromancy survived, and only necromancy held humanity together. This extinction event is the origin of the world. There is no "before."

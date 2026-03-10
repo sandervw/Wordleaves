@@ -1,3 +1,11 @@
+---
+title: "The Laws of Sparse CSS"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Sparse Code"
+part: 1
+---
+
 # The Laws of Sparse CSS
 
 ## The Primary Laws

@@ -1,3 +1,9 @@
+---
+title: "Abe no Seimei"
+author: "Sander VanWilligen"
+date: "2024"
+---
+
 # Abe no Seimei
 
 "What's your wreck's name, stranger?"

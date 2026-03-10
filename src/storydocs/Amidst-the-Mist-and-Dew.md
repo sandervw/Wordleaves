@@ -1,3 +1,9 @@
+---
+title: "Amidst the Mist and Dew"
+author: "Sander VanWilligen"
+date: "2024"
+---
+
 # Amidst the Mist and Dew
 
 "Do these mounds ring a bell?" asked Ellie. She pulled the hay cart behind her companion, Lavinia.

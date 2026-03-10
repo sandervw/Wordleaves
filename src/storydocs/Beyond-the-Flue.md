@@ -1,3 +1,9 @@
+---
+title: "Beyond the Flue"
+author: "Sander VanWilligen"
+date: "2025"
+---
+
 # Beyond the Flue
 
 ***A SILENT MOVIE STORY***

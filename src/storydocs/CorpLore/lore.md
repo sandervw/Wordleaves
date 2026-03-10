@@ -1,4 +1,12 @@
-# CorpLore: Setting Overview
+---
+title: "CorpLore"
+author: "Sander VanWilligen"
+date: "2026"
+domain: "CorpLore"
+part: 0
+---
+
+# CorpLore
 
 There are no forests, no houses or cities. The world is Corporate Offices, Hotels, Gas Stations, and the Daily Commute, merged into one architectural geography. Stairwells climb thousands of meters high. Hotel pools form bitter seas. Public restrooms have reverted to stinking swamps. Only infrastructure, stretching endlessly.
 

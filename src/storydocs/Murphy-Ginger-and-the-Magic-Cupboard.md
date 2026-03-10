@@ -1,3 +1,9 @@
+---
+title: "Murphy Ginger and the Magic Cupboard"
+author: "Sander VanWilligen"
+date: "2024"
+---
+
 # Murphy Ginger and the Magic Cupboard
 
 *Once, a cupboard was shut for a very long time...*
