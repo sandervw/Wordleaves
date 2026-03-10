@@ -7,6 +7,7 @@ import { Homepage } from "./components/pages/Homepage";
 import { Page } from "./components/pages/Page";
 import { DomainPage } from "./components/pages/DomainPage";
 import { Sidebar } from "./components/layout/Sidebar";
+import { Footer } from "./components/layout/Footer";
 import { buildEntries, buildDomainEntries } from "./services/docParser";
 import type { DocEntry } from "./types/DocEntry";
 import type { DomainEntry } from "./types/DomainEntry";
@@ -80,6 +81,7 @@ const App = (): ReactElement => {
           onNavigate={setCurrentPage}
         />
       </div>
+      <Footer />
     </div>
   );
 };
