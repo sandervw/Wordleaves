@@ -1,14 +1,9 @@
 import type { DocEntry } from "../types/DocEntry";
 import type { Frontmatter } from "../types/Frontmatter";
 
-const extractName = (path: string): string => {
-  const filename = path.split("/").pop() ?? "";
-  return filename.replace(".md", "");
-};
-
 const parseFrontmatter = (
   raw: string,
-): { readonly meta: Frontmatter; readonly body: string } => {
+): { readonly meta: Frontmatter; readonly body: string; } => {
   const trimmed = raw.trimStart();
   if (!trimmed.startsWith("---")) {
     return {
@@ -90,6 +85,7 @@ const parseFrontmatter = (
   return { meta, body };
 };
 
+// Extract a short preview of text from the document body
 const extractPreview = (content: string): string => {
   const lines = content
     .split("\n")
@@ -100,23 +96,20 @@ const extractPreview = (content: string): string => {
   return stripped.length > 150 ? stripped.substring(0, 150) + "..." : stripped;
 };
 
+// Convert raw markdown text into array of DocEntry objects with metadata
 const buildEntries = (
   docs: Readonly<Record<string, string>>,
 ): readonly DocEntry[] =>
-  Object.entries(docs).map(([path, raw]) => {
+  Object.entries(docs).map(([, raw]) => {
     const { meta, body } = parseFrontmatter(raw);
     return {
-      name: extractName(path),
+      name: meta.title,
       content: body,
       meta,
     };
   });
 
-const getStandaloneStories = (
-  entries: readonly DocEntry[],
-): readonly DocEntry[] =>
-  entries.filter((e) => !e.meta.domain);
-
+// Return a map of domain name to array of DocEntry objects belonging to that domain
 const groupByDomain = (
   entries: readonly DocEntry[],
 ): ReadonlyMap<string, readonly DocEntry[]> => {
@@ -145,4 +138,4 @@ const groupByDomain = (
   return map;
 };
 
-export { buildEntries, getStandaloneStories, groupByDomain, extractPreview };
+export { buildEntries, groupByDomain, extractPreview };

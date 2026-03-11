@@ -3,7 +3,6 @@ title: "Wraithcotte"
 author: "Sander VanWilligen"
 date: "2025"
 domain: "Time of Dying"
-part: 2
 ---
 
 # Wraithcotte

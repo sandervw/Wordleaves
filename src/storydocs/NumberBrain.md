@@ -1,3 +1,9 @@
+---
+title: "Number Brain"
+author: "Sander VanWilligen"
+date: "2024"
+---
+
 # Number Brain
 
 I have myself a Number Brain.

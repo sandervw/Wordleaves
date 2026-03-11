@@ -1,3 +1,9 @@
+---
+title: "Queen of the Hill"
+author: "Sander VanWilligen"
+date: "2024"
+---
+
 # Queen of the Hill
 
 *Letter from Lionel Pinnick to his wife, Adelaide "Addie" Pinnick -- 21 April 1911*

@@ -1,4 +1,10 @@
-# Nicholas, Sing "The Rite of Spring"
+---
+title: "Nicholas, Sing 'The Rite of Spring'"
+author: "Sander VanWilligen"
+date: "2024"
+---
+
+# Nicholas, Sing 'The Rite of Spring'
 
 Silence. Fyodor heard his heart thump. Then twice, *thumpthump*. Had Nicholas understood?
 

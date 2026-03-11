@@ -3,7 +3,6 @@ title: "The Lake of the Lost"
 author: "Sander VanWilligen"
 date: "2025"
 domain: "Time of Dying"
-part: 1
 ---
 
 # The Lake of the Lost

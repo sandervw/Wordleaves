@@ -1,3 +1,10 @@
+---
+title: "Roundworm Woods"
+author: "Sander VanWilligen"
+date: "2025"
+domain: "Time of Dying"
+---
+
 # Roundworm Woods
 
 *The Walk of the Graves? Why do you ask for another story from those grisly years? No happy endings lurk there. Still, none know the history better than I, Greymalkin the Scribe. I saw it all.*
