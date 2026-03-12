@@ -1,5 +1,6 @@
 import type { DocEntry } from "../types/DocEntry";
 import type { Frontmatter } from "../types/Frontmatter";
+import type { ListEntry } from "../types/ListEntry";
 
 // Util function to split a frontmatter block from the main file content
 const parseFrontmatter = (
@@ -63,7 +64,7 @@ const parseFrontmatter = (
   return { meta, body };
 };
 
-// Extract a short preview of text from the document body
+// Util function to xtract a short preview of text from the document body
 const extractPreview = (content: string): string => {
   const lines = content
     .split("\n")
@@ -116,26 +117,28 @@ const groupByDomain = (
   return map;
 };
 
-// Get direct child sub-domains for a given domain name
-const getSubDomains = (
-  domainName: string,
+// This function function returns an array of page and subdomain names, given a domain/subdomain name
+const getListEntries = (
+  domain: string,
   domainMap: ReadonlyMap<string, readonly DocEntry[]>,
-): readonly { readonly key: string; readonly displayName: string; readonly preview: string; }[] => {
-  const prefix = domainName + " | ";
-  const result: { key: string; displayName: string; preview: string; }[] = [];
+): readonly ListEntry[] => {
+  const entries = domainMap.get(domain) ?? [];
+  const entryList: readonly ListEntry[] = entries.map((e) => ({
+    key: e.name,
+    name: e.meta.title,
+    preview: extractPreview(e.content),
+  }));
 
-  for (const [key, entries] of domainMap) {
-    if (key.startsWith(prefix) && !key.slice(prefix.length).includes(" | ")) {
-      const firstEntry = entries[0];
-      result.push({
-        key,
-        displayName: key.slice(prefix.length),
-        preview: firstEntry ? extractPreview(firstEntry.content) : "",
-      });
-    }
-  }
+  const prefix = domain + " | ";
+  const subdomainList: readonly ListEntry[] = Array.from(domainMap.keys())
+    .filter((k) => k.startsWith(prefix) && !k.slice(prefix.length).includes(" | "))
+    .sort()
+    .map((fullKey) => ({
+      key: fullKey,
+      name: fullKey.slice(prefix.length),
+    }));
 
-  return result;
+  return [...subdomainList, ...entryList];
 };
 
-export { buildEntries, groupByDomain, extractPreview, getSubDomains };
+export { buildEntries, groupByDomain, getListEntries };

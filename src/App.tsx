@@ -11,7 +11,7 @@ import { Footer } from "./components/layout/Footer";
 import {
   buildEntries,
   groupByDomain,
-  getSubDomains,
+  getListEntries,
 } from "./services/docParser";
 
 // Import markdown files as set of raw strings
@@ -23,9 +23,9 @@ const allDocs = import.meta.glob("./storydocs/**/*.md", {
 
 // From imports derive maps of names and content for all entries, grouped by domain
 const allEntries = buildEntries(allDocs);
-const storyEntries = allEntries.filter((e) => !e.meta.domain);
+const storyEntries = allEntries.filter((e) => !e.meta.domain); // Entries without a domain
 const domainMap = groupByDomain(allEntries);
-const domainNames = Array.from(domainMap.keys())
+const domainNames = Array.from(domainMap.keys()) // Top-level domain names (excluding subdomains)
   .filter((name) => !name.includes(" | "))
   .sort();
 const entryMap = new Map(allEntries.map((e) => [e.name, e]));
@@ -48,9 +48,7 @@ const App = (): ReactElement => {
     if (domainEntries) {
       return (
         <DomainPage
-          domainName={currentPage!}
-          entries={domainEntries}
-          subDomains={getSubDomains(currentPage!, domainMap)}
+          entries={getListEntries(currentPage!, domainMap)}
           onNavigate={setCurrentPage}
         />
       );
