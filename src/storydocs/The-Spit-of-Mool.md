@@ -89,10 +89,10 @@ You watch as, beneath the water, other lights rise. Lights that are not reflecti
 
 These creatures possess some sort of necromancy, you know not what kind. Each geode dropped is “swallowed” by these jellyfish in the lake of the trench in Mool’s Chrypt.
 
-> **Quench those sparks in your chest. Neither now nor later is the time for wrath. Better to watch. Perhaps you will learn in which casket is buried Mool and his spit.**
-> **These apes seem harmless, though none has found your scent. Necromancy’s creations are filled with secret violence.**
-> **Whatever is the purpose of this industry, it’s no concern of yours. Sorrow that a knight, pious to The Road’s Tenets, should find himself a robber.**
-> **But, your Lady cannot pay...**
+> *Quench those sparks in your chest. Neither now nor later is the time for wrath. Better to watch. Perhaps you will learn in which casket is buried Mool and his spit.*
+> *These apes seem harmless, though none has found your scent. Necromancy’s creations are filled with secret violence.*
+> *Whatever is the purpose of this industry, it’s no concern of yours. Sorrow that a knight, pious to The Road’s Tenets, should find himself a robber.*
+> *But, your Lady cannot pay...*
 
 A snap breaks your reverie. You swivel your helmeted vision across the opposite wall until you catch a speeding shape. One of the gearslave apes - a carver - is falling. The frayed end of its harness line wriggles in the air above it as it plunges down. The ape shatters the reflective surface of the lake. It slips under, its line attached to its waist sliding in behind it.
 
@@ -194,11 +194,11 @@ The glowing Jellyfish surround and flood your eyes.
 You recall a voice.
 
 > *“My Knight. I thought the moonlight had swept down in the evening and swept you from my side forever, across the red lake.*
-> **What is this slimy feeling, between your scarred skin and your steel plate? Wet wool? Why are you soaked?**
+> *What is this slimy feeling, between your scarred skin and your steel plate? Wet wool? Why are you soaked?*
 > *“Othelmedir’s deeply resonant words spoke of your body as a cracked cup. It sang that your soul would leak from the porcelain, leaving only a dirty dish. But, I knew the voice lied.”*
-> **The chrypt of Mool. The gearslave apes. The lake. The plunge. Why is there a fog around your thoughts?**
+> *The chrypt of Mool. The gearslave apes. The lake. The plunge. Why is there a fog around your thoughts?*
 > *“You are shaking. All will be well, my knight, your breath once more is warm.”*
-> **What is this soft thing between your fingers? Tall grass? Focus. Your Lady needed you to do a thing in the tohmb. What was it?**
+> *What is this soft thing between your fingers? Tall grass? Focus. Your Lady needed you to do a thing in the tohmb. What was it?*
 > *“I will hold your hands.”*
 
 ---
@@ -207,7 +207,7 @@ You recall a voice.
 
 `Mool’s gearslave ape servants rustle through dense boscage, laboring under the obscure will of the sleepwalking mancer. They massage salted, electrified water onto the enormous crystals, or chisel still longer tunnels for the multiplying bones. Or, they tend the small pools of jellyfish; all grot are fascinated by the amorphous, tendrilled sea life.`
 
-![]([output-media/image1.png)
+![](output/The-Spit-of-Mool-media/image1.png)
 
 ---
 
@@ -226,9 +226,9 @@ The fronds of heather part before your prison. One of the gearslave apes steps u
 
 `If you scan the area, you are able to spot your Polished Steel Longsword. One of the apes is using it to hack a clearing around the boiling pot. Your Pinecone Shield is nowhere to be seen.`
 
-> **Strange are the means and ends of necromancy. What purpose can this grot creature have in stitching souls to wood and metal? This construction before you: is its soul like yours? A man soul? Is it injured like yours?**
-> **Enough. That helps nothing.**
-> **There are too many of this creature’s kind for you to cut a way out, even if you still held your Steel. What then?**
+> *Strange are the means and ends of necromancy. What purpose can this grot creature have in stitching souls to wood and metal? This construction before you: is its soul like yours? A man soul? Is it injured like yours?*
+> *Enough. That helps nothing.*
+> *There are too many of this creature’s kind for you to cut a way out, even if you still held your Steel. What then?*
 
 You spend some minutes examining the ape standing at your cage. Its uncanny stillness and unbreaking, crystalline staring accommodate this endeavor.
 
@@ -285,7 +285,7 @@ With a breath of relief you hear the mechanical thunder of stamping feet roll pa
 
 ` - The Shadows Time Forgot, Vol. IV`
 
-![]([output-media/image2.png)
+![](output/The-Spit-of-Mool-media/image2.png)
 
 ---
 

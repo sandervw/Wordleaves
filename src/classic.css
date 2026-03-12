@@ -77,7 +77,6 @@
 .page-text table {
   width: var(--percent-100);
   border-collapse: collapse;
-  margin-top: var(--medium);
   margin-bottom: var(--medium);
 }
 .page-text th,
@@ -85,6 +84,8 @@
   border: var(--border-width) solid var(--color-gray);
   padding: var(--small) var(--medium);
   text-align: left;
+  vertical-align: top;
+  font-weight: var(--weight-normal);
 }
 .page-text blockquote {
   border-left: var(--xsmall);
