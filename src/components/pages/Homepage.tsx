@@ -1,3 +1,7 @@
+/**
+ * Homepage component with basic site info
+ * @param onNavigate  Navigates to Sparse Code
+ */
 const Homepage = ({
   onNavigate,
 }: {

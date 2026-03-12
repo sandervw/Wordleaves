@@ -17,25 +17,27 @@ const allDocs = import.meta.glob("./storydocs/**/*.md", {
   eager: true,
 }) as Record<string, string>;
 
+// From imports derive maps of names and content for all entries, grouped by domain
 const allEntries = buildEntries(allDocs);
 const storyEntries = allEntries.filter((e) => !e.meta.domain);
 const domainMap = groupByDomain(allEntries);
-
 const domainNames = Array.from(domainMap.keys()).sort();
+const entryMap = new Map(allEntries.map((e) => [e.name, e]));
 
-const entryLookup = new Map(allEntries.map((e) => [e.name, e]));
-
+/**
+ * Main app component that manages navigation and rendering of content based on the current page.
+ */
 const App = (): ReactElement => {
   const [currentPage, setCurrentPage] = useState<string | null>(null);
 
+  // Determine if the current page corresponds to a domain or a specific entry
   const domainEntries = currentPage
     ? (domainMap.get(currentPage) ?? null)
     : null;
   const pageEntry =
-    currentPage && !domainEntries
-      ? (entryLookup.get(currentPage) ?? null)
-      : null;
+    currentPage && !domainEntries ? (entryMap.get(currentPage) ?? null) : null;
 
+  // Determine what content to render based on the current page
   const renderContent = (): ReactElement => {
     if (domainEntries) {
       return (
@@ -47,7 +49,7 @@ const App = (): ReactElement => {
       );
     }
     if (pageEntry) {
-      return <Page pageText={pageEntry.content} />;
+      return <Page title={pageEntry.name} content={pageEntry.content} />;
     }
     return <Homepage onNavigate={setCurrentPage} />;
   };

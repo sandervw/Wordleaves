@@ -1,6 +1,7 @@
 import type { DocEntry } from "../types/DocEntry";
 import type { Frontmatter } from "../types/Frontmatter";
 
+// Util function to split a frontmatter block from the main file content
 const parseFrontmatter = (
   raw: string,
 ): { readonly meta: Frontmatter; readonly body: string; } => {
@@ -39,26 +40,6 @@ const parseFrontmatter = (
       value = value.slice(1, -1);
     }
 
-    // Parse inline YAML arrays: [a, b, c]
-    if (value.startsWith("[") && value.endsWith("]")) {
-      const items = value
-        .slice(1, -1)
-        .split(",")
-        .map((s) => {
-          const trimmedItem = s.trim();
-          if (
-            (trimmedItem.startsWith('"') && trimmedItem.endsWith('"')) ||
-            (trimmedItem.startsWith("'") && trimmedItem.endsWith("'"))
-          ) {
-            return trimmedItem.slice(1, -1);
-          }
-          return trimmedItem;
-        })
-        .filter((s) => s.length > 0);
-      data[key] = items;
-      continue;
-    }
-
     // Parse numbers
     if (/^\d+$/.test(value)) {
       data[key] = Number(value);
@@ -77,9 +58,6 @@ const parseFrontmatter = (
       collection: String(data["collection"]),
     }),
     ...(typeof data["part"] === "number" && { part: data["part"] }),
-    ...(Array.isArray(data["tags"]) && {
-      tags: data["tags"].map(String),
-    }),
   };
 
   return { meta, body };

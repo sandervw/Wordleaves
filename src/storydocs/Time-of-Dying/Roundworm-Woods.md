@@ -19,7 +19,7 @@ domain: "Time of Dying"
 
 ---
 
-*Greymalkin flinched, eyes skittering over the cloudshadowed hills to either side of the road. "Did you catch that?" he said. "That sound? I have no- no experience, in this atmosphere. I rely on your judgement, my comrade. Are there Blights at hand?"*
+Greymalkin flinched, eyes skittering over the cloudshadowed hills to either side of the road. "Did you catch that?" he said. "That sound? I have no- no experience, in this atmosphere. I rely on your judgement, my comrade. Are there Blights at hand?"
 
 Stones chuckled, then said, "Put on your gear if you're scared." His full black eyes glittered like obsidian.
 

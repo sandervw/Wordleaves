@@ -9,10 +9,12 @@ interface DomainPageProps {
   readonly onNavigate: (page: string) => void;
 }
 
-const DomainPage = ({
-  entries,
-  onNavigate,
-}: DomainPageProps): ReactElement => {
+/**
+ * Main section component for displaying list of stories/content in a domain
+ * @param entries List of domain entries
+ * @param onNavigate Function to navigate to a specific entry
+ */
+const DomainPage = ({ entries, onNavigate }: DomainPageProps): ReactElement => {
   return (
     <main className="page container">
       <div className="display-flex-column gap-medium">
