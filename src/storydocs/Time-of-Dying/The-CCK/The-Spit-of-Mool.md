@@ -2,6 +2,8 @@
 title: "The Spit of Mool"
 author: "Sander VanWilligen"
 date: "2025"
+domain: "Time of Dying | The Cracked Cup Knight"
+part: 1
 ---
 
 ## 1 - The Spit of Mool

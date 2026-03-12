@@ -8,7 +8,11 @@ import { Page } from "./components/pages/Page";
 import { DomainPage } from "./components/pages/DomainPage";
 import { Sidebar } from "./components/layout/Sidebar";
 import { Footer } from "./components/layout/Footer";
-import { buildEntries, groupByDomain } from "./services/docParser";
+import {
+  buildEntries,
+  groupByDomain,
+  getSubDomains,
+} from "./services/docParser";
 
 // Import markdown files as set of raw strings
 const allDocs = import.meta.glob("./storydocs/**/*.md", {
@@ -21,7 +25,9 @@ const allDocs = import.meta.glob("./storydocs/**/*.md", {
 const allEntries = buildEntries(allDocs);
 const storyEntries = allEntries.filter((e) => !e.meta.domain);
 const domainMap = groupByDomain(allEntries);
-const domainNames = Array.from(domainMap.keys()).sort();
+const domainNames = Array.from(domainMap.keys())
+  .filter((name) => !name.includes(" | "))
+  .sort();
 const entryMap = new Map(allEntries.map((e) => [e.name, e]));
 
 /**
@@ -44,6 +50,7 @@ const App = (): ReactElement => {
         <DomainPage
           domainName={currentPage!}
           entries={domainEntries}
+          subDomains={getSubDomains(currentPage!, domainMap)}
           onNavigate={setCurrentPage}
         />
       );

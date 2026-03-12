@@ -2,7 +2,7 @@ import type { ReactElement } from "react";
 
 interface DomainCardProps {
   readonly title: string;
-  readonly preview: string;
+  readonly preview?: string;
   readonly onNavigate: () => void;
 }
 
@@ -23,7 +23,7 @@ const DomainCard = ({
       aria-label={`Open ${title}`}
     >
       <h4 className="card-header">{title}</h4>
-      <p className="card-description">{preview}</p>
+      {preview && <p className="card-description">{preview}</p>}
     </div>
   );
 };

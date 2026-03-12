@@ -116,4 +116,26 @@ const groupByDomain = (
   return map;
 };
 
-export { buildEntries, groupByDomain, extractPreview };
+// Get direct child sub-domains for a given domain name
+const getSubDomains = (
+  domainName: string,
+  domainMap: ReadonlyMap<string, readonly DocEntry[]>,
+): readonly { readonly key: string; readonly displayName: string; readonly preview: string; }[] => {
+  const prefix = domainName + " | ";
+  const result: { key: string; displayName: string; preview: string; }[] = [];
+
+  for (const [key, entries] of domainMap) {
+    if (key.startsWith(prefix) && !key.slice(prefix.length).includes(" | ")) {
+      const firstEntry = entries[0];
+      result.push({
+        key,
+        displayName: key.slice(prefix.length),
+        preview: firstEntry ? extractPreview(firstEntry.content) : "",
+      });
+    }
+  }
+
+  return result;
+};
+
+export { buildEntries, groupByDomain, extractPreview, getSubDomains };
