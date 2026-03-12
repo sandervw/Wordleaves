@@ -53,6 +53,45 @@
   margin-bottom: var(--medium);
   line-height: var(--line-height-loose);
 }
+.page-text h1,
+.page-text h2,
+.page-text h3 {
+  margin-top: var(--large);
+  margin-bottom: var(--medium);
+}
+.page-text h1:first-child,
+.page-text h2:first-child,
+.page-text h3:first-child {
+  margin-top: 0;
+}
+.page-text hr {
+  border: none;
+  border-top: var(--border-width) solid var(--color-gray);
+  margin-top: var(--large);
+  margin-bottom: var(--large);
+}
+.page-text code {
+  font-family: monospace;
+  font-size: var(--medium);
+}
+.page-text table {
+  width: var(--percent-100);
+  border-collapse: collapse;
+  margin-top: var(--medium);
+  margin-bottom: var(--medium);
+}
+.page-text th,
+.page-text td {
+  border: var(--border-width) solid var(--color-gray);
+  padding: var(--small) var(--medium);
+  text-align: left;
+}
+.page-text blockquote {
+  border-left: var(--xsmall);
+  padding-left: var(--medium);
+  margin-top: var(--medium);
+  margin-bottom: var(--medium);
+}
 
 /*============================================
   MARKDOWN EDITOR STYLES

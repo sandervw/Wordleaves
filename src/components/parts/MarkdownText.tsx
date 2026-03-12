@@ -2,6 +2,10 @@ import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { Markdown } from "@tiptap/markdown";
 import Placeholder from "@tiptap/extension-placeholder";
+import { Table } from "@tiptap/extension-table";
+import TableRow from "@tiptap/extension-table-row";
+import TableHeader from "@tiptap/extension-table-header";
+import TableCell from "@tiptap/extension-table-cell";
 
 const MarkdownText = ({
   placeholder = "Write something here...",
@@ -13,6 +17,10 @@ const MarkdownText = ({
     extensions: [
       StarterKit,
       Markdown,
+      Table,
+      TableRow,
+      TableHeader,
+      TableCell,
       Placeholder.configure({
         placeholder,
       }),
