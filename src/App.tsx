@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Routes, Route, useParams } from "react-router-dom";
 import type { ReactElement } from "react";
 import "./sparse.css";
 import "./classic.css";
@@ -12,6 +12,9 @@ import {
   buildEntries,
   groupByDomain,
   getListEntries,
+  buildDomainSlugMap,
+  buildDomainLinks,
+  buildStoryLinks,
 } from "./services/docParser";
 
 // Import markdown files as set of raw strings
@@ -23,57 +26,49 @@ const allDocs = import.meta.glob("./storydocs/**/*.md", {
 
 // From imports derive maps of names and content for all entries, grouped by domain
 const allEntries = buildEntries(allDocs);
-const storyEntries = allEntries.filter((e) => !e.meta.domain); // Entries without a domain
 const domainMap = groupByDomain(allEntries);
-const domainNames = Array.from(domainMap.keys()) // Top-level domain names (excluding subdomains)
-  .filter((name) => !name.includes(" | "))
-  .sort();
-const entryMap = new Map(allEntries.map((e) => [e.name, e]));
+const domainSlugMap = buildDomainSlugMap(allEntries);
+const slugToEntry = new Map(allEntries.map((e) => [e.slug, e]));
+const slugToDomain = new Map(
+  Array.from(domainSlugMap.entries()).map(([domain, slug]) => [slug, domain]),
+);
 
-/**
- * Main app component that manages navigation and rendering of content based on the current page.
- */
+// Build sidebar link data
+const storyLinks = buildStoryLinks(allEntries);
+const domainLinks = buildDomainLinks(domainMap, domainSlugMap);
+
+// Resolves a URL slug to the correct page content
+const ContentResolver = (): ReactElement => {
+  const { "*": splat = "" } = useParams();
+
+  const domainName = slugToDomain.get(splat);
+  if (domainName) {
+    return (
+      <DomainPage
+        entries={getListEntries(domainName, domainMap, domainSlugMap)}
+      />
+    );
+  }
+
+  const entry = slugToEntry.get(splat);
+  if (entry) {
+    return <Page title={entry.name} content={entry.content} />;
+  }
+
+  return <Homepage />;
+};
+
 const App = (): ReactElement => {
-  const [currentPage, setCurrentPage] = useState<string | null>(null);
-
-  // Determine if the current page corresponds to a domain or a specific entry
-  const domainEntries = currentPage
-    ? (domainMap.get(currentPage) ?? null)
-    : null;
-  const pageEntry =
-    currentPage && !domainEntries ? (entryMap.get(currentPage) ?? null) : null;
-
-  // Determine what content to render based on the current page
-  const renderContent = (): ReactElement => {
-    if (domainEntries) {
-      return (
-        <DomainPage
-          entries={getListEntries(currentPage!, domainMap)}
-          onNavigate={setCurrentPage}
-        />
-      );
-    }
-    if (pageEntry) {
-      return <Page title={pageEntry.name} content={pageEntry.content} />;
-    }
-    return <Homepage onNavigate={setCurrentPage} />;
-  };
-
   return (
     <div className="width-75 margin-center">
       <Navbar />
       <div className="display-grid-3-column">
-        <Sidebar
-          items={storyEntries}
-          title="Stories"
-          onNavigate={setCurrentPage}
-        />
-        {renderContent()}
-        <Sidebar
-          items={domainNames}
-          title="Domains"
-          onNavigate={setCurrentPage}
-        />
+        <Sidebar items={storyLinks} title="Stories" />
+        <Routes>
+          <Route index element={<Homepage />} />
+          <Route path="*" element={<ContentResolver />} />
+        </Routes>
+        <Sidebar items={domainLinks} title="Domains" />
       </div>
       <Footer />
     </div>

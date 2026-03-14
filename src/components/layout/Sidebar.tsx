@@ -1,42 +1,23 @@
 import type { ReactElement } from "react";
-import type { DocEntry } from "../../types/DocEntry";
-
-type SidebarItem = DocEntry | string;
+import { Link } from "react-router-dom";
+import type { SidebarLink } from "../../types/SidebarLink";
 
 interface SidebarProps {
-  readonly items: readonly SidebarItem[];
+  readonly items: readonly SidebarLink[];
   readonly title: string;
-  readonly onNavigate: (page: string) => void;
 }
 
-const getLabel = (item: SidebarItem): string => {
-  if (typeof item === "string") return item;
-  return item.meta.title || item.name.replace(/-/g, " ");
-};
-
-const getKey = (item: SidebarItem): string => {
-  if (typeof item === "string") return item;
-  return item.name;
-};
-
-const Sidebar = ({ items, title, onNavigate }: SidebarProps): ReactElement => {
+const Sidebar = ({ items, title }: SidebarProps): ReactElement => {
   return (
     <aside className="sidebar container">
       <h3 className="padding-medium">{title}</h3>
       <nav>
         <ul className="list">
           {items.map((item) => (
-            <li key={getKey(item)} className="list-item">
-              <a
-                href="#"
-                className="link"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onNavigate(getKey(item));
-                }}
-              >
-                {getLabel(item)}
-              </a>
+            <li key={item.slug} className="list-item">
+              <Link to={`/${item.slug}`} className="link">
+                {item.label}
+              </Link>
             </li>
           ))}
         </ul>

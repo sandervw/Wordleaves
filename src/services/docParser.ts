@@ -1,6 +1,7 @@
 import type { DocEntry } from "../types/DocEntry";
 import type { Frontmatter } from "../types/Frontmatter";
 import type { ListEntry } from "../types/ListEntry";
+import type { SidebarLink } from "../types/SidebarLink";
 
 // Util function to split a frontmatter block from the main file content
 const parseFrontmatter = (
@@ -64,7 +65,14 @@ const parseFrontmatter = (
   return { meta, body };
 };
 
-// Util function to xtract a short preview of text from the document body
+// Derive a URL slug from a file path, stripping the storydocs prefix and .md suffix
+const deriveSlug = (path: string): string => {
+  return path
+    .replace(/^\.\/storydocs\//, "")
+    .replace(/\.md$/, "");
+};
+
+// Util function to extract a short preview of text from the document body
 const extractPreview = (content: string): string => {
   const lines = content
     .split("\n")
@@ -79,10 +87,11 @@ const extractPreview = (content: string): string => {
 const buildEntries = (
   docs: Readonly<Record<string, string>>,
 ): readonly DocEntry[] =>
-  Object.entries(docs).map(([, raw]) => {
+  Object.entries(docs).map(([path, raw]) => {
     const { meta, body } = parseFrontmatter(raw);
     return {
       name: meta.title,
+      slug: deriveSlug(path),
       content: body,
       meta,
     };
@@ -117,14 +126,59 @@ const groupByDomain = (
   return map;
 };
 
-// This function function returns an array of page and subdomain names, given a domain/subdomain name
+// Build a map from domain display name to its folder URL slug
+const buildDomainSlugMap = (
+  entries: readonly DocEntry[],
+): ReadonlyMap<string, string> => {
+  const map = new Map<string, string>();
+
+  for (const entry of entries) {
+    const domain = entry.meta.domain;
+    if (!domain || map.has(domain)) continue;
+
+    // The domain slug is the folder containing this entry
+    const lastSlash = entry.slug.lastIndexOf("/");
+    if (lastSlash !== -1) {
+      map.set(domain, entry.slug.slice(0, lastSlash));
+    }
+  }
+
+  return map;
+};
+
+// Build sidebar links for top-level domain names
+const buildDomainLinks = (
+  domainMap: ReadonlyMap<string, readonly DocEntry[]>,
+  domainSlugMap: ReadonlyMap<string, string>,
+): readonly SidebarLink[] =>
+  Array.from(domainMap.keys())
+    .filter((name) => !name.includes(" | "))
+    .sort()
+    .map((name) => ({
+      label: name,
+      slug: domainSlugMap.get(name) ?? name,
+    }));
+
+// Build sidebar links for story entries (no domain)
+const buildStoryLinks = (
+  entries: readonly DocEntry[],
+): readonly SidebarLink[] =>
+  entries
+    .filter((e) => !e.meta.domain)
+    .map((e) => ({
+      label: e.meta.title || e.name,
+      slug: e.slug,
+    }));
+
+// This function returns an array of page and subdomain names, given a domain/subdomain name
 const getListEntries = (
   domain: string,
   domainMap: ReadonlyMap<string, readonly DocEntry[]>,
+  domainSlugMap: ReadonlyMap<string, string>,
 ): readonly ListEntry[] => {
   const entries = domainMap.get(domain) ?? [];
   const entryList: readonly ListEntry[] = entries.map((e) => ({
-    key: e.name,
+    key: e.slug,
     name: e.meta.title,
     preview: extractPreview(e.content),
   }));
@@ -134,11 +188,18 @@ const getListEntries = (
     .filter((k) => k.startsWith(prefix) && !k.slice(prefix.length).includes(" | "))
     .sort()
     .map((fullKey) => ({
-      key: fullKey,
+      key: domainSlugMap.get(fullKey) ?? fullKey,
       name: fullKey.slice(prefix.length),
     }));
 
   return [...subdomainList, ...entryList];
 };
 
-export { buildEntries, groupByDomain, getListEntries };
+export {
+  buildEntries,
+  groupByDomain,
+  getListEntries,
+  buildDomainSlugMap,
+  buildDomainLinks,
+  buildStoryLinks,
+};

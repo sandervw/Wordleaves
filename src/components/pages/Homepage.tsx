@@ -1,12 +1,7 @@
-/**
- * Homepage component with basic site info
- * @param onNavigate  Navigates to Sparse Code
- */
-const Homepage = ({
-  onNavigate,
-}: {
-  readonly onNavigate: (page: string) => void;
-}) => {
+import type { ReactElement } from "react";
+import { Link } from "react-router-dom";
+
+const Homepage = (): ReactElement => {
   return (
     <main className="page container">
       <div className="page-text">
@@ -15,16 +10,9 @@ const Homepage = ({
         </h3>
         <p>Random stories are on the left sidebar.</p>
         <p>Grouped stories and documents are on the right.</p>
-        <a
-          href="#"
-          className="link font-italic"
-          onClick={(e) => {
-            e.preventDefault();
-            onNavigate("Sparse-Code");
-          }}
-        >
+        <Link to="/Sparse-Code" className="link font-italic">
           Built to Sparse Laws
-        </a>
+        </Link>
       </div>
     </main>
   );

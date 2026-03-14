@@ -1,30 +1,26 @@
 import type { ReactElement } from "react";
+import { Link } from "react-router-dom";
 
 interface DomainCardProps {
   readonly title: string;
+  readonly slug: string;
   readonly preview?: string;
-  readonly onNavigate: () => void;
 }
 
 const DomainCard = ({
   title,
+  slug,
   preview,
-  onNavigate,
 }: DomainCardProps): ReactElement => {
   return (
-    <div
+    <Link
+      to={`/${slug}`}
       className="card-link"
-      onClick={onNavigate}
-      onKeyDown={(e) => {
-        if (e.key === "Enter") onNavigate();
-      }}
-      role="button"
-      tabIndex={0}
       aria-label={`Open ${title}`}
     >
       <h4 className="card-header">{title}</h4>
       {preview && <p className="card-description">{preview}</p>}
-    </div>
+    </Link>
   );
 };
 

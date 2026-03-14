@@ -1,12 +1,9 @@
 import { useState, useEffect } from "react";
 import type { ReactElement } from "react";
+import { Link } from "react-router-dom";
 import SVG from "../parts/SVG";
 
-interface NavbarProps {
-  readonly onBack?: () => void;
-}
-
-const Navbar = ({ onBack }: NavbarProps): ReactElement => {
+const Navbar = (): ReactElement => {
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem("theme");
     return saved || "dark";
@@ -23,11 +20,11 @@ const Navbar = ({ onBack }: NavbarProps): ReactElement => {
 
   return (
     <nav className="navbar container">
-      <div className="display-flex">
-        {onBack && <SVG name="return" props={{ onClick: onBack }} />}
-      </div>
+      <div className="display-flex" />
       <div className="display-flex-column gap-small">
-        <div className="navbar-title flex-child-center">Wordleaves</div>
+        <Link to="/" className="navbar-title flex-child-center">
+          Wordleaves
+        </Link>
         <p className="meta flex-child-center">By Sander VanWilligen</p>
       </div>
       <div className="display-flex">
