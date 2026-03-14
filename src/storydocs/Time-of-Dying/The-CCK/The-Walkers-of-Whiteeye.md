@@ -17,7 +17,7 @@ part: 5
 > “Hunger’s a terrible malady.
 > “And I’m hungry in the shine of the moon.”
 
-![](output/The-Walkers-of-Whiteeye-media/image1.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Walkers-of-Whiteeye-media/image10.png)
 
 ---
 
@@ -70,7 +70,7 @@ The tinkling silver bells ring out-of-place in the muted space. Your Blue Lady u
 
 `The goddess was not born in a barn. She commanded her dollmakers to weave a great curtain of dust; weave it from the shed winter pelts of animals; a hairy curtain door, separating Gallbladder and his flock, from civilized peoples of the middle of The Road.`
 
-![](output/The-Walkers-of-Whiteeye-media/image2.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Walkers-of-Whiteeye-media/image11.png)
 
 ---
 
@@ -130,9 +130,9 @@ One of the walkers is a man with high cheekbones and a broad shiny forehead, nam
 
 ### Other Walkers
 
-| **Novel** A shriveled ochre-colored man. He understands you, but will only speak in his own imaginary language of whistles and coughs. | **Greymalkin** The company scribe. Punctuates each of his sentences with a jerk of his head or fingers.                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cemetery Stones** A jovial, bald, pale, violent killer.                                                                              | **Worms for Lashes** If you retrieved it from Birchbark the Necromance, you can use the Sorrowful Father Mask to gain this ancient woman’s trust, though she is fated to be no person’s friend. She will give you one copper penny each day at noon, but will spit on your sabatons if you refuse. |
+| **Novel** A shriveled ochre-colored man. He understands you, but will only speak in his own imaginary language of whistles and coughs. | **Greymalkin** The company scribe. Punctuates each of his sentences with a jerk of his head or fingers. |
+| --- | --- |
+| **Cemetery Stones** A jovial, bald, pale, violent killer. | **Worms for Lashes** If you retrieved it from Birchbark the Necromance, you can use the Sorrowful Father Mask to gain this ancient woman’s trust, though she is fated to be no person’s friend. She will give you one copper penny each day at noon, but will spit on your sabatons if you refuse. |
 
 The Walkers take special care to find a roofed, sturdy shelter every night. You realize that there is more to this than simple protection from the cold and the wind-blown dust. That stomach song has followed you across The Waste.
 
@@ -178,9 +178,9 @@ The dust storm continues without relenting. It covers the sky the next night. An
 
 `While The Walkers have no fixed harbor, you may still stumble by accident on several possible places to rest without loss of life.`
 
-| **The Hive House** A windowless house of green stone, lying in the cleft of a valley. Shaped and structured like a beehive.                                                                                                              | **Dry Boardwalk** This broken boardwalk hangs beside a parched lakebed. You can ask Greymalkin to use his Velvet Mirror on the shadows under the boardwalk. If you do the shadows will reveal themselves to be unquiet ghosts, broken and maddened, from when the lake was full. You may put them to rest by pouring red wine over them, at which time the shadows disappear. |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Old Spot’s Place** A calcified mushroom, standing alone at the top of a dustless brown hill. There is a magic toad underneath, which may cure one company member of a mundane curse, but only if you agree to carry it to fresh water. | **Fossil-Shell** Currently inhabited by a tribal mancer who commands swarms of lethal, undead moths. Use a lamp to distract the moths while you cut down the mancer, and earn yourself a good night’s sleep.                                                                                                                                                                  |
+| **The Hive House** A windowless house of green stone, lying in the cleft of a valley. Shaped and structured like a beehive. | **Dry Boardwalk** This broken boardwalk hangs beside a parched lakebed. You can ask Greymalkin to use his Velvet Mirror on the shadows under the boardwalk. If you do the shadows will reveal themselves to be unquiet ghosts, broken and maddened, from when the lake was full. You may put them to rest by pouring red wine over them, at which time the shadows disappear. |
+| --- | --- |
+| **Old Spot’s Place** A calcified mushroom, standing alone at the top of a dustless brown hill. There is a magic toad underneath, which may cure one company member of a mundane curse, but only if you agree to carry it to fresh water. | **Fossil-Shell** Currently inhabited by a tribal mancer who commands swarms of lethal, undead moths. Use a lamp to distract the moths while you cut down the mancer, and earn yourself a good night’s sleep. |
 
 One night your Lady wakes from fitful sleep.
 

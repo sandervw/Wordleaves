@@ -120,7 +120,7 @@ Later, you put your Polished Steel Longsword to use. In a burrow by the river br
 
 `An enormous pile of blue, rock-hard wax sits between the two halves of an hourglass-house pairing. This was once a wax golem, which defended The Cat in the Jar from levy men. It has seen better days.`
 
-![]([output/The-Funeral-on-the-Road-of-Graves-media/image1.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Funeral-on-the-Road-of-Graves-media/image6.png)
 
 ---
 
@@ -136,7 +136,7 @@ Magpie left your Lady a spare umbrella when she brought the bread and cheese. Th
 The longer you remain the more you discover in and around The Cat in the Jar.
 
 | **Farmer Skein’s Scarecrow** Farmer Skein will pay a fistful of square coins for the destruction of scarecrow, which has attained sentience. One strike will only make it cackle; only repeated blows will slay the thing. | **The Snake Totem** Every knight with a sword, passing through The Cat in the Jar, leaves their slash in the wooden totem of the snake, beside the lavender-painted house on the east side of town. Many knights have come before... | **Castiron Inn** A local cottage that rents rooms. Colloquially called the Castiron Inn, for the enameled iron pots that decorate its long fireplace mantle. |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --- | --- | --- |
 
 Initially, the owner of the Castiron Inn is quite reticent.
 
@@ -238,7 +238,7 @@ The Blue Lady’s voice breaks your lapping-water reverie.
 
 `The gateway was built two-hundred and thirty years ago. It was built to ward the Ten-Plates Ghost away from Ripe. The Ghost is dead, but the gate remains.`
 
-![]([output/The-Funeral-on-the-Road-of-Graves-media/image2.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Funeral-on-the-Road-of-Graves-media/image7.png)
 
 ---
 

@@ -13,7 +13,7 @@ part: 4
 
 `- The Book of Winterdemon`
 
-![](output/The-Graveside-Inn-media/image1.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Graveside-Inn-media/image8.png)
 
 ---
 
@@ -43,10 +43,10 @@ The steward leads you in silence. He holds forth a four-pronged candlestick for 
 
 You enter the dining hall. Seven other guests at the Inn sit around a long, felt-topped table.
 
-| **Timberwolfe** White hair. White beard. White bearskin cloak. Eyes: black. He breathes lugubriously.                                                       |                                                                                                                                                                          | **The Late Poet** This troubadour is a Living Bones, a walking, conversant skeleton. Speaks often, usually in rhymes.               |                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **Miss Leatherworker** The woman wrings her hands constantly, like she is trying to squeeze all the blood from them - yet her face is wind worn and placid. |                                                                                                                                                                          | **Six-Cats-Hiding** Wears a set of purple silk, many-folded, fraying robes. The pattern on the robes shows hundreds of orange cats. |                                                                                           |
-| **Doctor Hoof** A short and bald doctor. He wears two normal-looking boots.                                                                                 | **Frida** Female. Blonde hair, parted down the middle, and shaped like two huge golden cauldrons upon her head. Her body is disproportionately small. She looks anxious. |                                                                                                                                     | **Melancholia** Every time you look at this girl you notice a faint smell of burnt sugar. |
+| **Timberwolfe** White hair. White beard. White bearskin cloak. Eyes: black. He breathes lugubriously. |   | **The Late Poet** This troubadour is a Living Bones, a walking, conversant skeleton. Speaks often, usually in rhymes. |   |
+| --- | --- | --- | --- |
+| **Miss Leatherworker** The woman wrings her hands constantly, like she is trying to squeeze all the blood from them - yet her face is wind worn and placid. |   | **Six-Cats-Hiding** Wears a set of purple silk, many-folded, fraying robes. The pattern on the robes shows hundreds of orange cats. |   |
+| **Doctor Hoof** A short and bald doctor. He wears two normal-looking boots. | **Frida** Female. Blonde hair, parted down the middle, and shaped like two huge golden cauldrons upon her head. Her body is disproportionately small. She looks anxious. |   | **Melancholia** Every time you look at this girl you notice a faint smell of burnt sugar. |
 
 The steward clears his throat.
 
@@ -80,7 +80,7 @@ Madam Strock’s room presents a scene of pure catastrophe. The red velvet curta
 `If you perform a thorough search, you may find the following pieces of information.`
 
 | **Jasmine** There is a faint scent of jasmine perfume in the air, but it is overpowered by a damp, musty, earthy odor. | **Loose Straw** Five long pieces can be found stuck in the threads of the rug. | **Scroll Shreds** A pile of paper shredding, yellow with age, and bearing fragments of deadspeech, have been swept under a tall cabinet in the corner. |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --- | --- | --- |
 
 Your Lady walks to the bedspread, but does not touch Madam Strock’s body.
 
@@ -114,7 +114,7 @@ The word ‘windows’ will still be quivering in the upturned legs of a few cha
 `The only sure info you know at this stage is that neither you nor your Lady killed Melancholia or Madam Strock. By interviewing guests, you can learn the following clues as well.`
 
 | **Unless Three Share a Lie** Timberwolfe, The Late Poet, and Six-Cats-Hiding have all been together since breakfast. | **Unless Two Share a Lie** Miss Leatherworker, Doctor Hoof, and the victim Melancholia were together until an hour ago. Miss Leatherworker and Doctor Hoof became separated only a quarter of an hour ago. | **Unless Three Share a Lie** Frida and The Steward and The Late Poet all heard the chords of a crow-and-tincan throat singing from The Yellow Wing half-an-hour before the murder. |
-| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 
 Frida, as she is staring at the body, wraps her long fingers around the two blonde cauldrons of her hair.
 
@@ -175,7 +175,7 @@ The prodigious Steward has been pacing before you. He stops when he sees you thr
 `The fourth victim, and the two after, occur in a random order. You can discover a clue to the killer near each of the bodies. The specific clue you receive depends on where that victim died in the order.`
 
 | **Miss Leatherworker** 1st - A belt, perfectly stitched, hangs from the rafters beside her. 2nd - Written on the bottom of her shoe: “Corn crow. Corn crow. Corn crow.” 3rd - Found near the Closet of Masks, where every wall bears faces made of plaster. | **Six-Cats-Hiding** 1st - A bowl of curdled milk lies spilled at his feet. 2nd - Found nailed to the top of the dumbwaiter shaft. 3rd - More loose straw, and a wad is stuffed down his throat. | **Doctor Hoof** 1st - The last line in his diary is cut off: “I should have locked the window anyway, knowing-” 2nd - There is one empty, labeled vial in his satchel - ‘Ill Omen’s Heart’ 3rd - A hole-riddled, sun-bleached top hat is locked between the death’s-vice of his fingers. |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 
 ---
 
@@ -212,7 +212,7 @@ After many minutes your striker finally conjures a small flame from a candle wic
 `The final confrontation will always happen in one of three rooms.`
 
 | **The Belfrey** The heavy bronze bell has snapped from its line. It now lies embedded in the splintered, uneven floorboard. | **Octopus Atrium** This central garden is full of brittle shrub wood and small but deep pools. | **The Roaming Room** This room roams the halls on a hundred marble feet, like a centipede. It seems docile. You may enter through it’s ‘face’. |
-| --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 
 `The specific room makes no difference. When you enter, you will see your Lady lying atop a table. She does not stir, but you see her breathing.`
 
@@ -224,7 +224,7 @@ After many minutes your striker finally conjures a small flame from a candle wic
 
 `This tall and lank wight may only be summoned under the light of a harridan’s moon. It’s sackcloth skin bristles with the feathers of albino crows. It is heavy despite its skinny frame - the body is stuffed with hazelwood chips. The Gallowspook wears a huge cloak of woven straw, which swishes and sweeps the floor as it walks. In its left hand it carries a candelabra with six low-burning candles. There are always places for more.`
 
-![](output/The-Graveside-Inn-media/image2.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Graveside-Inn-media/image9.png)
 
 ---
 

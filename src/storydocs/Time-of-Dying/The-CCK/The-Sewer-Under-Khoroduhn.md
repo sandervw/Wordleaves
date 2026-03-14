@@ -14,7 +14,7 @@ part: 2
 
 `Always the water runs. Deeper. Deeper. Always deeper down.`
 
-![](output/The-Sewer-Under-Khoroduhn-media/image1.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sewer-Under-Khoroduhn-media/image3.png)
 
 ---
 
@@ -28,7 +28,7 @@ part: 2
 
 `As far as the wind-scarred stone of the keep rises on the mountain, still twice as far do the corridors run under it. In the larders live the wine and the rats. In the mausoleum, skull after skull stares blindly and thoughtlessly from black sockets, or sockets glinting with sapphire and ruby and onyx. And deeper still, under the bones, are the sewers.`
 
-![](output/The-Sewer-Under-Khoroduhn-media/image2.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sewer-Under-Khoroduhn-media/image4.png)
 
 ---
 
@@ -80,7 +80,7 @@ Then, farther off, a bell clangs.
 `Before you go, be sure to grab the following loot from Pigburne’s chamber.`
 
 | **Song-Singing Fungus** A mushroom with a hidden mouth under its cap. Sings in the presence of uncontrolled dead. | **Constellation Chart** This chart, drawn on thick paper, shows in lines all the major constellations visible from The Lake of Tomatoes. One set of lines, the Amber Ox, has been circled in ink. | **Jeweled Dagger** Ornamental, but worth a few coins at least. |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| --- | --- | --- |
 
 `When you hear fists hammering the chamber door, it’s time to run. Use the rope you stowed on the balcony to scale down the castle bricks and the cliffs below.`
 
@@ -151,9 +151,9 @@ Soon enough you hear a distant but sharp banging. R the Killer goes to the door,
 
 Six ways lead to the sewer.
 
-| **The Haymarket Well** A railless hole in market square.                                                                         | **Deathless Catiph’s Mausoleum** You can find this marble sepulcher atop a gravel hill in Khoroduhn’s largest cemetery. Inside the sarcophagus with the scratched-out name there is a secret tunnel. | **Greeg’s House** This way is closed to you at this time.                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Abandoned Shack** Lies one street to the left of the Gate of Axes. Well-guarded by Khoroduhn’s black-market cabal, Ruddynails. | **Khoroduhn Keep’s Wine Cellar** Your worst bet.                                                                                                                                                     | **Hasodeki`s Crucible** This seemingly-innocuous clay kiln, in the Weige’s Family’s most esteemed mancer’s tower, serves as a portal to a hidden sewer chamber. The activation word is ‘Bindweed’. |
+| **The Haymarket Well** A railless hole in market square. | **Deathless Catiph’s Mausoleum** You can find this marble sepulcher atop a gravel hill in Khoroduhn’s largest cemetery. Inside the sarcophagus with the scratched-out name there is a secret tunnel. | **Greeg’s House** This way is closed to you at this time. |
+| --- | --- | --- |
+| **Abandoned Shack** Lies one street to the left of the Gate of Axes. Well-guarded by Khoroduhn’s black-market cabal, Ruddynails. | **Khoroduhn Keep’s Wine Cellar** Your worst bet. | **Hasodeki`s Crucible** This seemingly-innocuous clay kiln, in the Weige’s Family’s most esteemed mancer’s tower, serves as a portal to a hidden sewer chamber. The activation word is ‘Bindweed’. |
 
 ---
 
@@ -172,9 +172,9 @@ R the Killer raises his torch, peering upstream, then down.
 
 `Finding your way through the tangled sewer veins will not be easy. The tunnels, all of differing sizes and grades and flows, merge or split in seemingly endless junctures. As you explore this greywater grotto, you’re likely to encounter some sentient flotsam.`
 
-| **The Ratwall** The sewer stream flows right under this living wall of ratskin and ratheads. Probably some mancer’s work. The gap is too narrow for you to squeeze through. If R the Killer still has his torch, you can hold it against the wall. The hair will burn for a moment, before the entire structure collapses with a loud, leathery, ripping sound. If R doesn’t have his torch, you’ll have to backtrack. Don’t try cutting a way through - the wall eats Steel, and any arm holding it... | **Mermaid’s Lair** Best to avoid this bloated siren. If you do choose to fight her, try getting under her belly. Her fish eyes can’t look down.                                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **The Penny Lizard** This enormous salamander collects all the treasures which slip through the grates in the city above. You run the risk of encountering it at any passage in the sewers. While it’s lair (and hoard) cannot be found, killing the monster and cutting open it’s stomach will net you the day’s catch of square copper coins.                                                                                                                                                         | **Stitched Soul Men** This colony of grey-eyed men, with stitched-together flesh of variegated colors, live inside of eight stone lanterns, in a vast carved cave at the intersection of two main channels. At a single gong-note from one lantern, they’ll attack. You’re given no choice but to kill them. |
+| **The Ratwall** The sewer stream flows right under this living wall of ratskin and ratheads. Probably some mancer’s work. The gap is too narrow for you to squeeze through. If R the Killer still has his torch, you can hold it against the wall. The hair will burn for a moment, before the entire structure collapses with a loud, leathery, ripping sound. If R doesn’t have his torch, you’ll have to backtrack. Don’t try cutting a way through - the wall eats Steel, and any arm holding it... | **Mermaid’s Lair** Best to avoid this bloated siren. If you do choose to fight her, try getting under her belly. Her fish eyes can’t look down. |
+| --- | --- |
+| **The Penny Lizard** This enormous salamander collects all the treasures which slip through the grates in the city above. You run the risk of encountering it at any passage in the sewers. While it’s lair (and hoard) cannot be found, killing the monster and cutting open it’s stomach will net you the day’s catch of square copper coins. | **Stitched Soul Men** This colony of grey-eyed men, with stitched-together flesh of variegated colors, live inside of eight stone lanterns, in a vast carved cave at the intersection of two main channels. At a single gong-note from one lantern, they’ll attack. You’re given no choice but to kill them. |
 
 `Eventually your lamp and R’s torch will both burn out.`
 
@@ -209,7 +209,7 @@ A giant figure, sitting in a rocking chair at the loom, notices your entry.
 
 `One of the Silk Giants, or ‘Gigan’, Othok was formerly a powerful weapon in the Weige family arsenal. He followed without fail the commands of Buster Weige, until that member of the house was slain in a bread riot. The death of his master drove Gigan Othok to madness - he turned upon the family. His sinewy flesh proved too tough for any blade to cut, but the Weiges managed to drive him into the sewers. The giant was thought to have starved to death decades ago, and was forgotten.`
 
-![](output/The-Sewer-Under-Khoroduhn-media/image3.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sewer-Under-Khoroduhn-media/image5.png)
 
 ---
 

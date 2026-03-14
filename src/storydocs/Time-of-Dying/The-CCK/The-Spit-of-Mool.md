@@ -19,7 +19,7 @@ The door of steel-gilded granite slides aside under the final smash of a pendulu
 One by one you pick up the three pieces of your equipment, lying in the shade of a boulder by the door.
 
 | **Plate Mail Helmet** The feather on its crest twists in the wind. Stuffy, and restricts your vision, but may deflect a killing stroke. | **Pinecone Shield** Decorated with your Blue Lady’s pinecone sigil. | **Polished Steel Longsword** A sharp, shining weapon. Well-maintained. |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| --- | --- | --- |
 
 You swing your sword in an arc before the door; this passage will be wide enough. You pick up your source of light with your shield hand. With the darkness before you, you recall the exact orders of the mancer, Othelmedir.
 
@@ -56,7 +56,7 @@ A fabrication of wood, and rusted iron, and glowing translucent crystal shambles
 `It is worth your time to explore some of the nearest alcoves. There are hidden treasures in this tohmb.`
 
 | **Sunblind Dew** This thin vial of water contains dew from a blade of grass grown in total darkness. Drink it, and your eyes will see without light. | **Sacrificial Cleaver** A heavy, ornate cleaver, used to sever the necks of cattle. | **Hourglass** The sand within this timekeeper has solidified into a single clump of mud. The sand can be replaced. The device is useful in the casting of certain spells. |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 
 After a couple hours wandering you arrive before a narrow but enormously tall doorway. There is Deadspeech carved on a nearby marble epithet.
 
@@ -75,9 +75,9 @@ You hold your sabaton back just before stepping over the lip of an invisible led
 
 `By observing them without notice for some time, you can learn the distinct types of gearslave ape.`
 
-| **Carver Ape** These servants climb up and down the walls of the trench, carving out small boreholes, and placing the glowing crystal buds within. | **Stonechewer Ape** Their purpose is unknown. When they move, it is always accompanied by an enormous scraping, grating sound. |                                                                                                                      | **Yellow Ape** Covered in wax. |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| **Heavy Ape** These gearslaves stand twice the height of a man. You do not wish to draw their attention.                                           |                                                                                                                                | **Milk Ape** Constructed of pale steel, painted balsa-wood, and glowing white crystal. They shamble without a sound. |                                |
+| **Carver Ape** These servants climb up and down the walls of the trench, carving out small boreholes, and placing the glowing crystal buds within. | **Stonechewer Ape** Their purpose is unknown. When they move, it is always accompanied by an enormous scraping, grating sound. |   | **Yellow Ape** Covered in wax. |
+| --- | --- | --- | --- |
+| **Heavy Ape** These gearslaves stand twice the height of a man. You do not wish to draw their attention. |   | **Milk Ape** Constructed of pale steel, painted balsa-wood, and glowing white crystal. They shamble without a sound. |   |
 
 You watch as a procession of gearslave apes emerges - one ape after the next - from the mouth of one tunnel, like a long, lolling, constructed tongue. The apes jitter in time with each other, their movements like a clockwork ritual dance.
 
@@ -209,7 +209,7 @@ You recall a voice.
 
 `Mool’s gearslave ape servants rustle through dense boscage, laboring under the obscure will of the sleepwalking mancer. They massage salted, electrified water onto the enormous crystals, or chisel still longer tunnels for the multiplying bones. Or, they tend the small pools of jellyfish; all grot are fascinated by the amorphous, tendrilled sea life.`
 
-![](output/The-Spit-of-Mool-media/image1.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Spit-of-Mool-media/image1.png)
 
 ---
 
@@ -275,9 +275,9 @@ Crack.
 
 ### Places to Hide
 
-| **Ald Medas Shrine** In this tall chamber of The Heather Vault, you crouch among the splintered piles of ten thousand exhausted magical wands. | **Big Eye’s Cave** Seven ivory eggs encased in amber stud the ceiling.                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Selgon** This pillared corridor reminds you of an apprentice knight you once escorted through a similar sepulcher.                           | **Index Chamber** A snake of yellow light slithers constantly through the air between two pilons in this room. The shifting illumination makes this a surprisingly-good place to hide. |
+| **Ald Medas Shrine** In this tall chamber of The Heather Vault, you crouch among the splintered piles of ten thousand exhausted magical wands. | **Big Eye’s Cave** Seven ivory eggs encased in amber stud the ceiling. |
+| --- | --- |
+| **Selgon** This pillared corridor reminds you of an apprentice knight you once escorted through a similar sepulcher. | **Index Chamber** A snake of yellow light slithers constantly through the air between two pilons in this room. The shifting illumination makes this a surprisingly-good place to hide. |
 
 With a breath of relief you hear the mechanical thunder of stamping feet roll past your hiding place. It fades like a weathered storm. After several moments you emerge, Steel in hand, and begin to probe the vault.
 
@@ -287,7 +287,7 @@ With a breath of relief you hear the mechanical thunder of stamping feet roll pa
 
 ` - The Shadows Time Forgot, Vol. IV`
 
-![](output/The-Spit-of-Mool-media/image2.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Spit-of-Mool-media/image2.png)
 
 ---
 

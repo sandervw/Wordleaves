@@ -32,7 +32,7 @@ Your rooms were not spacious, but you and Lady travel light. You slept soundly. 
 Three others are already seated in the cushioned chairs which circle the hearth of Cobweb’s Hotel. The low blue flames behind the grate lend a glacial sheen to each of their faces.
 
 | **R the Killer** Though he has never turned that Horned Morning Star against you or your Lady, yet you do not like this man without scruples. | **Wrathmaige** Your newest and only friend. One of The Walkers, bitten during your journey across The Whiteeye Waste. His broad forehead sparkles in beads of sweat, and he shivers despite the warmth of the hearth. | **The Mothy Widow** Says nothing. Stares at the blue veins on the backs of her olive hands. |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 
 `A cup from the bar may offer your Lady some small comfort. If you navigate your way through the pale veils and the slanting forest of fallen beams, you can order wine at the bar from Cobweb.`
 
@@ -166,7 +166,7 @@ When the hunters arrive later that afternoon you pretend you fought and exorcize
 Before you leave you make sure to collect a few of the valuable items which the mummy collected over the years.
 
 | **Feral Pickled Farie** A tiny fairie suspended in a jar of lime-colored brine. Dead, yet there is some magic left in its body. | **Glass Merigold** Orange. | **Coldsoil** This pot of special soil can keep undead worms alive... Dead? Alive-dead? |
-| ------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 
 You return to the village. You are paid. You leave.
 
@@ -217,7 +217,7 @@ You listen longer, but there is still only the cricket. Having caught your breat
 
 `So the oldest ghosts say.`
 
-![](output/The-Three-Guests-media/image1.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Three-Guests-media/image12.png)
 
 ---
 
@@ -259,7 +259,7 @@ You follow the wisp into the pool.
 As you cross, you produce no ripples in the water. There are several faces which you might see in the eggshell surface.
 
 | **Old Mancer** You stare down at a face of folds, wrinkle upon wrinkle. The white eyebrows stretch to each cheek until they interweave with the white hair, into the white beard. | **Bluechild** This pudgy baby’s face is blue, as if starved of air, but the mouth is open in a smile. | **Inn Hound’s Head** A tired dog stares at you with drooping eyes. |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| --- | --- | --- |
 
 When you reach the other side you glance back.
 
@@ -304,9 +304,9 @@ You cast your eyes down, however, and with this man, depart.
 
 `There is little value in the mystery you received from The House of Maze. You’ll have to find some other way to earn black bread for your supper.`
 
-| **Tailor’s Tester** Yarnstitchweave the Tailor wants someone to try on his latest graveclothes, checking them for lice, or mold, or skin disease.                                                                                                                                                              | **Squeaker** The town butcher needs more squeakers; trappers who go into the woods and kill the giant rats. He’ll pay five copper chits for a female rat, one bronze for a male. |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Leechee** The College of Leeches is in need of good, strong blood. If you sign a contract in leather with any of the leeches, they will cover you in the animal for which their profession is named, and draw a few pints. You’ll make no money, but they will offer you supper, and you can take some home. | **Pet Cemetery** The keeper of the town petting zoo needs someone to look after his four species of animal: goats, pigs, chickens, and his special praying mantis.               |
+| **Tailor’s Tester** Yarnstitchweave the Tailor wants someone to try on his latest graveclothes, checking them for lice, or mold, or skin disease. | **Squeaker** The town butcher needs more squeakers; trappers who go into the woods and kill the giant rats. He’ll pay five copper chits for a female rat, one bronze for a male. |
+| --- | --- |
+| **Leechee** The College of Leeches is in need of good, strong blood. If you sign a contract in leather with any of the leeches, they will cover you in the animal for which their profession is named, and draw a few pints. You’ll make no money, but they will offer you supper, and you can take some home. | **Pet Cemetery** The keeper of the town petting zoo needs someone to look after his four species of animal: goats, pigs, chickens, and his special praying mantis. |
 
 That night over supper your husband’s words are wrong.
 
@@ -331,7 +331,7 @@ You wrack your brain, and after several hours you remember one likely imposter.
 
 `These immortal masters-of-disguise are the everlasting remains of cunning mancers. They cannot endure outside of flesh. When their body grows old, their skeleton rips its way out. It finds a new host, tears the host’s bones out by the spine, then climbs into the vacant body. Several of these undead are said to work in The House of Maze.`
 
-![](output/The-Three-Guests-media/image2.png)
+![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Three-Guests-media/image13.png)
 
 ---
 
