@@ -103,6 +103,10 @@
   pointer-events: none;
   content: attr(data-placeholder);
 }
+.ProseMirror img {
+  max-width: var(--percent-100);
+  height: auto;
+}
 
 /*============================================
   FOOTER: A component that spans the bottom of the page
