@@ -115,7 +115,7 @@ Though no sound you have produced has drawn a reaction from the workers, it is s
 | --- | --- |
 | **Cold Ghosts** Such spirits are of much interest to mancers, but hard to find, and harder to bend. | **The Elderly** These are of no value individually. They must be gathered into a wrinkling mass to be of use in necromancy. |
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Ghost-Factory-media/image16.png)
+![](/The-CCK/The-Ghost-Factory-media/image16.png)
 
 ---
 
@@ -204,7 +204,7 @@ As you turn to go, however, Hemlock burst forth, hurried, frightened.
 
 `A skull of chromatic absinth judders low over the sweeping stone floors. It’s permanent grin is dyed in ink, its two sockets smile bright with blacklight joy. This skull sits on a circle of jade, a tray, which is attached to eight pumping, syncopated, articulated spider legs. the joints are solid steel, but the struts of each leg are all cut from the scapula of a once-sacred cow.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Ghost-Factory-media/image17.png)
+![](/The-CCK/The-Ghost-Factory-media/image17.png)
 
 ---
 

@@ -150,7 +150,7 @@ Her amber eyes fix on you as they pass where you stand. She gives a word. The ca
 
 `Though the Guildlord has not the strongest militia, The Palace of Burning Shells is an imposing prospect. Perched alone on its island, girt by jagged cliffs, with one long, narrow stone bridge, at the end of which sits a heavy iron portcullis, the Palace perches like the nest of some prehistorical sky whale. Weathered limestone towers stare with ten thousand sparkled window-eyes, slate-tinted in the sun. At its pinnacle, a cathedral roof crowns the monolith.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sisterhood-of-the-Yellow-Smile-media/image70.png)
+![](/The-CCK/The-Sisterhood-of-the-Yellow-Smile-media/image70.png)
 
 ---
 

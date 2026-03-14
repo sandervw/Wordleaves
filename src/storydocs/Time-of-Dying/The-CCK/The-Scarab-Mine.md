@@ -72,7 +72,7 @@ You meet the glazed stare. When the swollen mouth speaks, the voice is distinctl
 
 `The architrave is painted amber and covered in glyphs. Passing under, one feels a static in the teeth.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Scarab-Mine-media/image63.png)
+![](/The-CCK/The-Scarab-Mine-media/image63.png)
 
 ---
 
@@ -205,7 +205,7 @@ She steps off to your right. The preceding days of travel have stitched her cut.
 
 `From the first Time comes this relic of potent necromancy. Once and only once, place it on the throat of one who is not too long dead. He shall live again.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Scarab-Mine-media/image67.png)
+![](/The-CCK/The-Scarab-Mine-media/image67.png)
 
 ---
 

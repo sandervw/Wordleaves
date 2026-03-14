@@ -79,7 +79,7 @@ Yet light plays over many of the tumbling stones, and the crashing crystal water
 
 `Station Archer is one of four stations in Spring-Under-Fjall. The station warms the cavern by drawing water from deeper hot springs.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Alsoburg-Siege-media/image61.png)
+![](/The-CCK/The-Alsoburg-Siege-media/image61.png)
 
 ---
 
@@ -174,7 +174,7 @@ One of the surviving knights has lost his ear in the battle; a thick gauze wraps
 
 `This new heptad of mancers plumbed the darkest caves and deepest graves that wind below That Road Familiar and Strange. In their seeking they accidentally stepped across the threshold of the Chrypt of the Fermented Princess, which was sacred to another god-necromancer, The Mother of worms. As punishment that goddess destroyed six of the seven. She left one mancer alive, a man with a beard long and painted white. As he groveled, listening at the stone for the Thin Man’s dreams, she blessed him with that eternal life which the seven had sought – and at the same instant, cursed him to forever grovel, forever listen, driven to ascendent madness by voices underneath.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Alsoburg-Siege-media/image62.png)
+![](/The-CCK/The-Alsoburg-Siege-media/image62.png)
 
 ---
 

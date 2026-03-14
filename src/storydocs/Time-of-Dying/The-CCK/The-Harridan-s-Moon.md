@@ -121,7 +121,7 @@ You sink.
 
 `Their magic is profane - not necromancy. Antique. It is said their spells can cure ills beyond the means of mancer spells. Even so, few are those who willingly deal with witches. A deal with a witch always ends badly in the stories.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Harridan-s-Moon-media/image60.png)
+![](/The-CCK/The-Harridan-s-Moon-media/image60.png)
 
 ---
 

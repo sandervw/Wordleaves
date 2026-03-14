@@ -232,7 +232,7 @@ Othelmedir’s voice summons its distinctly deep, distinctly resonant sound.
 
 `The Kustodevite sect of mancers present the soul as a lodging house. A painted lodging house, with many floors, many rooms, many windows and doors. The house begins with the boy on the roof, waving a flag at the pigeons in the sky. It descends, through rooms and persons: the husband and wife dining on the balcony, the maid dusting curtains, the three old friends playing cards at a table on the porch. The lodge ends at the bottom, with the coffin-maker in the cellar.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Soul-Sense-media/image21.png)
+![](/The-CCK/The-Soul-Sense-media/image21.png)
 
 ---
 

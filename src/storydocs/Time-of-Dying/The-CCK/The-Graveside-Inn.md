@@ -13,7 +13,7 @@ part: 4
 
 `- The Book of Winterdemon`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Graveside-Inn-media/image8.png)
+![](/The-CCK/The-Graveside-Inn-media/image8.png)
 
 ---
 
@@ -224,7 +224,7 @@ After many minutes your striker finally conjures a small flame from a candle wic
 
 `This tall and lank wight may only be summoned under the light of a harridan’s moon. It’s sackcloth skin bristles with the feathers of albino crows. It is heavy despite its skinny frame - the body is stuffed with hazelwood chips. The Gallowspook wears a huge cloak of woven straw, which swishes and sweeps the floor as it walks. In its left hand it carries a candelabra with six low-burning candles. There are always places for more.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Graveside-Inn-media/image9.png)
+![](/The-CCK/The-Graveside-Inn-media/image9.png)
 
 ---
 

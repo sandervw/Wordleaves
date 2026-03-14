@@ -30,7 +30,7 @@ As you lift your Lady over a glacial fissure you study her expression.
 
 `Another legend tells of the Green Firebeetle, which paints the aurora in the night sky when it flies.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Tunnel-of-the-Stillbreather-media/image56.png)
+![](/The-CCK/The-Tunnel-of-the-Stillbreather-media/image56.png)
 
 ---
 
@@ -55,7 +55,7 @@ As you lift your Lady over a glacial fissure you study her expression.
 
 `The practice of putting Winter wind in a body is not a lost one.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Tunnel-of-the-Stillbreather-media/image57.png)
+![](/The-CCK/The-Tunnel-of-the-Stillbreather-media/image57.png)
 
 ---
 

@@ -38,7 +38,7 @@ These figments manifest during the snowstorms that shadow this land. The snow ma
 
 `A symbol of love on The Road of Graves in The Time of Dying.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Stone-Cocoon-media/image68.png)
+![](/The-CCK/The-Stone-Cocoon-media/image68.png)
 
 ---
 
@@ -112,7 +112,7 @@ The cold is wet like a razor on the back of your neck. It seems to cut through y
 
 `If they can pass the visions.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Stone-Cocoon-media/image69.png)
+![](/The-CCK/The-Stone-Cocoon-media/image69.png)
 
 ---
 

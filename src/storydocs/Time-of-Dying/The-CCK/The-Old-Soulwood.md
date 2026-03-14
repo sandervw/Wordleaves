@@ -63,7 +63,7 @@ When you reach the summit, you see only more dense wood.
 
 `Men of older Times tried to weave their epitaphs around these trees. But the trees only spread wider, no matter how many they felled.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Old-Soulwood-media/image42.png)
+![](/The-CCK/The-Old-Soulwood-media/image42.png)
 
 ---
 
@@ -140,7 +140,7 @@ The ‘image’ of the strange musical light still worries your mind, but The Tr
 
 `The Underpass. Caverns of clotted midnight.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Old-Soulwood-media/image43.png)
+![](/The-CCK/The-Old-Soulwood-media/image43.png)
 
 ---
 
@@ -160,7 +160,7 @@ You cross one tunnel with a low channel running down its middle. A stream of the
 
 `Behavior: The Periwinkle Forest Cat’s favorite quarry are the giant tunnel-rats that live in The Underpass, the carved-out tunnels beneath The Soulwood. The Underpass is the cat’s hunting ground. It will not kill hunt creatures in the forest proper, except for play, or vengeance.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Old-Soulwood-media/image44.png)
+![](/The-CCK/The-Old-Soulwood-media/image44.png)
 
 ---
 

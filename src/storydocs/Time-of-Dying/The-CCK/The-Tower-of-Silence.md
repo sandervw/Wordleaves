@@ -107,7 +107,7 @@ Following R, you eventually discover an alley festooned in curtains of lichen, d
 
 `Nowadays only The Monks of the Lidless visit the old wine chrypt. They send to this chrypt their outcasts; monks gone blind. Wrapped in blankets of owl-feathers, bellies distended from the ancient wine that is their only comfort, these blind monks pound and lumber through the corridors under The Towers of Silence.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Tower-of-Silence-media/image40.png)
+![](/The-CCK/The-Tower-of-Silence-media/image40.png)
 
 ---
 
@@ -315,7 +315,7 @@ A moving shadow catches your attention.
 
 `The Lidless are malevolent winged female half-demon, born from two half-souls. They usually haunt churches, towers, and barns.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Tower-of-Silence-media/image41.png)
+![](/The-CCK/The-Tower-of-Silence-media/image41.png)
 
 ---
 

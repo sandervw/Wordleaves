@@ -17,7 +17,7 @@ part: 5
 > “Hunger’s a terrible malady.
 > “And I’m hungry in the shine of the moon.”
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Walkers-of-Whiteeye-media/image10.png)
+![](/The-CCK/The-Walkers-of-Whiteeye-media/image10.png)
 
 ---
 
@@ -70,7 +70,7 @@ The tinkling silver bells ring out-of-place in the muted space. Your Blue Lady u
 
 `The goddess was not born in a barn. She commanded her dollmakers to weave a great curtain of dust; weave it from the shed winter pelts of animals; a hairy curtain door, separating Gallbladder and his flock, from civilized peoples of the middle of The Road.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Walkers-of-Whiteeye-media/image11.png)
+![](/The-CCK/The-Walkers-of-Whiteeye-media/image11.png)
 
 ---
 

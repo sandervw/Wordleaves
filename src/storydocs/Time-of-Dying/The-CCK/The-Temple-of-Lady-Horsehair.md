@@ -93,7 +93,7 @@ You notice then that the priestess who led you into the chamber must have slippe
 
 `They make the visitor paint their own face.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Temple-of-Lady-Horsehair-media/image36.png)
+![](/The-CCK/The-Temple-of-Lady-Horsehair-media/image36.png)
 
 ---
 
@@ -242,7 +242,7 @@ You have hardly taken your first step down when onto the balcony file the same s
 
 `The paint covering these two golems makes their wax as hard as stone. It’s not a full coat, but it makes anything other than precise cuts and stabs useless.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Temple-of-Lady-Horsehair-media/image37.png)
+![](/The-CCK/The-Temple-of-Lady-Horsehair-media/image37.png)
 
 ---
 

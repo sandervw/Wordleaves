@@ -65,7 +65,7 @@ Other great trees spread behind you, eastward. Dozens. They sway, more than regu
 
 `The Ents stand only in the remotest parts of the great Soulwood. Up on the forested mountain peaks. Or, hidden in ravines that run so deeply into the earth, their canopies lie lower even than that of the regular forest. They sway, but do not move from the place of their roots.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Canopy-of-the-Ents-media/image45.png)
+![](/The-CCK/The-Canopy-of-the-Ents-media/image45.png)
 
 ---
 
@@ -265,7 +265,7 @@ Your light awakens the stag head. It lows at the apex of the ceiling. Its opens 
 
 `The Eye of an Ent is a valuable prize. This once-alive man tried to steal this once-alive Ent’s eye for his House. He forgot to bring a clotting salve for the wound, however, so the heart trapped and consumed him in vengeance. Whatever was human in the man is something else now. He has become the heart-mite, the insect-servant of the Ent’s thrumming organ.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Canopy-of-the-Ents-media/image55.png)
+![](/The-CCK/The-Canopy-of-the-Ents-media/image55.png)
 
 ---
 

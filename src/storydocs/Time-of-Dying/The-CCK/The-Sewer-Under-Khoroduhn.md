@@ -14,7 +14,7 @@ part: 2
 
 `Always the water runs. Deeper. Deeper. Always deeper down.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sewer-Under-Khoroduhn-media/image3.png)
+![](/The-CCK/The-Sewer-Under-Khoroduhn-media/image3.png)
 
 ---
 
@@ -28,7 +28,7 @@ part: 2
 
 `As far as the wind-scarred stone of the keep rises on the mountain, still twice as far do the corridors run under it. In the larders live the wine and the rats. In the mausoleum, skull after skull stares blindly and thoughtlessly from black sockets, or sockets glinting with sapphire and ruby and onyx. And deeper still, under the bones, are the sewers.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sewer-Under-Khoroduhn-media/image4.png)
+![](/The-CCK/The-Sewer-Under-Khoroduhn-media/image4.png)
 
 ---
 
@@ -209,7 +209,7 @@ A giant figure, sitting in a rocking chair at the loom, notices your entry.
 
 `One of the Silk Giants, or ‘Gigan’, Othok was formerly a powerful weapon in the Weige family arsenal. He followed without fail the commands of Buster Weige, until that member of the house was slain in a bread riot. The death of his master drove Gigan Othok to madness - he turned upon the family. His sinewy flesh proved too tough for any blade to cut, but the Weiges managed to drive him into the sewers. The giant was thought to have starved to death decades ago, and was forgotten.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Sewer-Under-Khoroduhn-media/image5.png)
+![](/The-CCK/The-Sewer-Under-Khoroduhn-media/image5.png)
 
 ---
 

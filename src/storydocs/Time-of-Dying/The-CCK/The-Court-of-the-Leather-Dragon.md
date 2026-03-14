@@ -16,7 +16,7 @@ You press the paddle through the water. Your gondola floats sleekly toward an is
 
 `The parapet gargoyles of the island fortress are stone basilisks. They are lifelike, for they once lived. They were forced to gaze at one another, and turned to stone, by the Leather Dragon - the guild that holds court within the six high ramparts.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Court-of-the-Leather-Dragon-media/image76.png)
+![](/The-CCK/The-Court-of-the-Leather-Dragon-media/image76.png)
 
 ---
 
@@ -93,7 +93,7 @@ You are reminded of a painting you once saw. A man with the head of a crow, dres
 
 `This fabulous weapon’s hilt is the shape of a serpent, with its fangs wrapped around a gleaming opal. It was made by a nameless mancer, who is said to have filled it with the hatred borne against mankind by the last, degenerated dragon. The Great Wyrm of The Leather Dragon is its bearer.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Court-of-the-Leather-Dragon-media/image81.png)
+![](/The-CCK/The-Court-of-the-Leather-Dragon-media/image81.png)
 
 ---
 
@@ -245,7 +245,7 @@ Your Lady looks from you, to her stepson. She runs to your side.
 
 `Rays of slate color, like cathedral glass, shine down from an eastern dawn, breaking through patchwork clouds. One ray catches and reflects off of a tiger’s eye gemstone, in a mancer’s charm necklace hanging from the spruce mast of a Hornwater fisherman’s boat. A moment later the eye darkens; the boat passes under the shadow of a ruin. The ruined castle of the Leather Dragon.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Court-of-the-Leather-Dragon-media/image82.png)
+![](/The-CCK/The-Court-of-the-Leather-Dragon-media/image82.png)
 
 ---
 
@@ -253,7 +253,7 @@ Your Lady looks from you, to her stepson. She runs to your side.
 
 `A Lady with blue-black hair walks beside a rolling cart pulled by a one-horned ox, through a field of rye. The back of the cart is filled with unsawn timber, and an axe. The ox is led on a rope by a young man with a scar on his neck.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Court-of-the-Leather-Dragon-media/image83.png)
+![](/The-CCK/The-Court-of-the-Leather-Dragon-media/image83.png)
 
 ---
 
@@ -261,8 +261,8 @@ Your Lady looks from you, to her stepson. She runs to your side.
 
 `The Time is one that is Dying. The Road is paved in Graves. Each stone on its winding and indefinite route wears the name of a soul that is buried below it. One curl of this Road passes under the umbrella of a low, thick-trunked oak. Between one of the oak’s twisting roots, propped against the bark, a Polished Steel Longsword sleeps in its scabbard. One root laces through the soft, short grass. Through the Time of Dying it has stretched. It touches one stone on The Road of Graves.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Court-of-the-Leather-Dragon-media/image84.png)
+![](/The-CCK/The-Court-of-the-Leather-Dragon-media/image84.png)
 
 ---
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Court-of-the-Leather-Dragon-media/image85.png)
+![](/The-CCK/The-Court-of-the-Leather-Dragon-media/image85.png)

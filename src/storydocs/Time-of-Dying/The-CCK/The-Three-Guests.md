@@ -217,7 +217,7 @@ You listen longer, but there is still only the cricket. Having caught your breat
 
 `So the oldest ghosts say.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Three-Guests-media/image12.png)
+![](/The-CCK/The-Three-Guests-media/image12.png)
 
 ---
 
@@ -331,7 +331,7 @@ You wrack your brain, and after several hours you remember one likely imposter.
 
 `These immortal masters-of-disguise are the everlasting remains of cunning mancers. They cannot endure outside of flesh. When their body grows old, their skeleton rips its way out. It finds a new host, tears the host’s bones out by the spine, then climbs into the vacant body. Several of these undead are said to work in The House of Maze.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Three-Guests-media/image13.png)
+![](/The-CCK/The-Three-Guests-media/image13.png)
 
 ---
 

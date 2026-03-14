@@ -209,7 +209,7 @@ You recall a voice.
 
 `Mool’s gearslave ape servants rustle through dense boscage, laboring under the obscure will of the sleepwalking mancer. They massage salted, electrified water onto the enormous crystals, or chisel still longer tunnels for the multiplying bones. Or, they tend the small pools of jellyfish; all grot are fascinated by the amorphous, tendrilled sea life.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Spit-of-Mool-media/image1.png)
+![](/The-CCK/The-Spit-of-Mool-media/image1.png)
 
 ---
 
@@ -287,7 +287,7 @@ With a breath of relief you hear the mechanical thunder of stamping feet roll pa
 
 ` - The Shadows Time Forgot, Vol. IV`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Spit-of-Mool-media/image2.png)
+![](/The-CCK/The-Spit-of-Mool-media/image2.png)
 
 ---
 

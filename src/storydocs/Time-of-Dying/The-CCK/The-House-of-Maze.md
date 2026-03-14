@@ -33,7 +33,7 @@ You see no windows, no main entry, just three or four gaps between the scaffolds
 
 `Sepulchral is the living space in Middlemoss.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-House-of-Maze-media/image14.png)
+![](/The-CCK/The-House-of-Maze-media/image14.png)
 
 ---
 
@@ -152,7 +152,7 @@ An old man lies on his side in the back of a black stone shelf. His sere hair ha
 
 `Although rats in the cities are smaller and less territorial, they are still dangerous. They coalesce into huge packs. Some unscrupulous sorts, with voices that can touch the hearts of beasts, train the rats for crime. Theft is the most common use, but swarms have also been trained for murder, arson, forgery, kidnapping, blackmail, and, puzzlingly, animal cruelty.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-House-of-Maze-media/image15.png)
+![](/The-CCK/The-House-of-Maze-media/image15.png)
 
 ---
 

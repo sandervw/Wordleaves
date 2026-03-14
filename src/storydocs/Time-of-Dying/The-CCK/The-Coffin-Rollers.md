@@ -34,7 +34,7 @@ R jerks his Morning Star loose. He staggers.
 
 `The bent squall is an apparition of driving jaguar winds, flowing streams of black cloud, and sideways lightning. They are local to one country of The Road of Graves, east of The Meathook Mountains. They kill quicker than blizzards, faster than floods, more swiftly even than some fatal poisons.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Coffin-Rollers-media/image58.png)
+![](/The-CCK/The-Coffin-Rollers-media/image58.png)
 
 ---
 
@@ -66,7 +66,7 @@ Gawpers peek from the canvas wagon flaps. Pale gawpers. Gawpers with too many te
 
 `The varied vagrants that travel with the caravan come in all shapes and sizes, colors and talents. Some are simple dwarves. Some are mancers. Some are sane.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Coffin-Rollers-media/image59.png)
+![](/The-CCK/The-Coffin-Rollers-media/image59.png)
 
 ---
 

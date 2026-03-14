@@ -32,7 +32,7 @@ You sweep your arm up and hold your blade horizontal, the flat facing out. Your 
 
 `A skeleton of black bones, longer than twenty long serpents, lies on its back beneath the golem. The giant loops of its ribs have been fractured by the plate of the golem’s copper axe. Its fanged jawbone gapes. It is the skeleton of the Demon King, Surveillance.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Duel-media/image22.png)
+![](/The-CCK/The-Duel-media/image22.png)
 
 ---
 
@@ -148,7 +148,7 @@ You remain by your Lady’s side - always - as Skimcalf’s wicker sandals dimin
 
 `And, Lendendrung could not destroy all of Surveillance. It could not destroy the Demon King’s ear. The Demon King, though he is only a skeleton, still hears when the soul of an unworthy slave draws near his fanged jaw.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Duel-media/image35.png)
+![](/The-CCK/The-Duel-media/image35.png)
 
 ---
 

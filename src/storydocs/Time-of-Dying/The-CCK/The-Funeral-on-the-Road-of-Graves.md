@@ -120,7 +120,7 @@ Later, you put your Polished Steel Longsword to use. In a burrow by the river br
 
 `An enormous pile of blue, rock-hard wax sits between the two halves of an hourglass-house pairing. This was once a wax golem, which defended The Cat in the Jar from levy men. It has seen better days.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Funeral-on-the-Road-of-Graves-media/image6.png)
+![](/The-CCK/The-Funeral-on-the-Road-of-Graves-media/image6.png)
 
 ---
 
@@ -238,7 +238,7 @@ The Blue Lady’s voice breaks your lapping-water reverie.
 
 `The gateway was built two-hundred and thirty years ago. It was built to ward the Ten-Plates Ghost away from Ripe. The Ghost is dead, but the gate remains.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Funeral-on-the-Road-of-Graves-media/image7.png)
+![](/The-CCK/The-Funeral-on-the-Road-of-Graves-media/image7.png)
 
 ---
 

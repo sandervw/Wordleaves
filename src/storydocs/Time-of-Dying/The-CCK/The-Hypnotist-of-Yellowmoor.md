@@ -74,7 +74,7 @@ The old man sets his right arm on the crook of his right cane, and points.
 
 `A distant chime-carillon strikes up a complicated fugue in D-minor. For decades the people of Middlemoss have traded tales of various persons, ill-fated, who began to hear this chime in their dreams, and thereafter went missing.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Hypnotist-of-Yellowmoor-media/image38.png)
+![](/The-CCK/The-Hypnotist-of-Yellowmoor-media/image38.png)
 
 ---
 
@@ -291,7 +291,7 @@ Just before you break the latch, something shudders in the hall below. Some foe.
 
 `The Hypnotist of Yellowmoor is a Wooly Vampire, a not-quite-undead, not-quite-alive misery, which feeds on imagination. Wooly Vampires eat the dreams of their victims. In so doing, they make weary the waking hours. They move into homes that have suffered great loss, slowly driving out the other inhabitants, and once settled can live off of only a small village of dreaming victims for hundreds of years. Their thralls are drained of all emotion, flesh without inner will, domesticated swords.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Hypnotist-of-Yellowmoor-media/image39.png)
+![](/The-CCK/The-Hypnotist-of-Yellowmoor-media/image39.png)
 
 ---
 

@@ -150,7 +150,7 @@ But you yourself have stolen the momentary break of sight, and drawn your Steel.
 
 `No matter how one watches, companions always seem to vanish in The Channelloft.`
 
-![](C:/Users/Sander/OneDrive/Documents/Github/Notes/Time-of-Dying/output/The-Weaponmaster-media/image75.png)
+![](/The-CCK/The-Weaponmaster-media/image75.png)
 
 ---
 

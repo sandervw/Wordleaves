@@ -6,6 +6,7 @@ import { Table } from "@tiptap/extension-table";
 import TableRow from "@tiptap/extension-table-row";
 import TableHeader from "@tiptap/extension-table-header";
 import TableCell from "@tiptap/extension-table-cell";
+import Image from "@tiptap/extension-image";
 
 const MarkdownText = ({
   placeholder = "Write something here...",
@@ -21,6 +22,7 @@ const MarkdownText = ({
       TableRow,
       TableHeader,
       TableCell,
+      Image,
       Placeholder.configure({
         placeholder,
       }),
